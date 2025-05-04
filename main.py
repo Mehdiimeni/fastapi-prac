@@ -3,6 +3,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 
 
+
 app = FastAPI()
 
 @app.get("/")
@@ -40,8 +41,11 @@ def comments(id:int,limit:int=10):
 # Post part
 
 class Blog(BaseModel):
-    pass
+    title: str
+    body: str
+    published: Optional[bool]
 
 @app.post("/blog")
-def create_blog(request: Blog):
-    return {"data": "Blog created"}
+def create_blog(blog: Blog):
+    return {"data": f"Blog is created with {blog.title}"}
+
