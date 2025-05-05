@@ -4,7 +4,7 @@ from typing import List
 from sqlalchemy.orm import Session
 
 get_db = database.get_db
-Hash = hashing.Hash()
+Hash = hashing.Hash
 
 router = APIRouter()
 
