@@ -1,0 +1,780 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<!-- chat.html , Mon, 05 May 2025 10:39:54 GMT -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Crypto Ex Chat</title>
+    <!-- Favicon-->
+
+    <link rel="stylesheet" href="assets/css/cryptoon.style.min.css">
+</head>
+
+<body>
+    <div id="cryptoon-layout" class="theme-orange">
+
+        <!-- sidebar -->
+        <div class="sidebar py-2 py-md-2 me-0 border-end">
+            <div class="d-flex flex-column h-100">
+                <!-- Logo -->
+                <a href="user.html" class="mb-0 brand-icon">
+                    <span class="logo-icon">
+                        <i class="fa fa-gg-circle fs-3"></i>
+                    </span>
+                    <span class="logo-text">Crypto Ex</span>
+                </a>
+                <!-- Menu: main ul -->
+                <ul class="menu-list flex-grow-1 mt-4 px-1">
+                    <li>
+                        <a class="m-link" href="user.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px"
+                                viewBox="0 0 38 38">
+                                <path xmlns="http://www.w3.org/2000/svg"
+                                    d="M34,18.756V34H22v-8h-6v8h-4V14.31l7-3.89L34,18.756z M34,16.472V6h-6v7.139L34,16.472z"
+                                    style="fill:var(--primary-color);" data-st="fill:var(--chart-color4);"></path>
+                                <path xmlns="http://www.w3.org/2000/svg" class="st0"
+                                    d="M34,14.19V6h-6v2h4v5.08L19,5.86L0.51,16.13l0.98,1.74L19,8.14l17.51,9.73l0.98-1.74L34,14.19z M32,32h-8v-8H14  v8H6V17.653l-2,1.111V34h12v-8h6v8h12V18.764l-2-1.111V32z">
+                                </path>
+                            </svg>
+                            <div>
+                                <h6 class="mb-0">Dashboard</h6><small class="text-muted">Analytics Report</small>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="m-link" href="exchange.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px"
+                                viewBox="0 0 38 38">
+                                <path xmlns="http://www.w3.org/2000/svg"
+                                    d="M20,25c0-1.698,0-6.334,0-11c0-4.418-1.582-8-6-8c-2.083,0-4.072,0.888-5.538,2.335  C5.708,11.053,4,14.826,4,19c0,8.284,6.716,15,15,15c2.736,0,5.294-0.745,7.503-2.025C22.87,31.719,20,28.698,20,25z"
+                                    style="fill:var(--primary-color);" data-st="fill:var(--chart-color4);"></path>
+                                <path xmlns="http://www.w3.org/2000/svg" class="st0"
+                                    d="M15,11l-1,0.01c0,0,0,0,0-0.01H15z M22,0.24v2.04C29.95,3.69,36,10.65,36,19c0,4.17-1.52,8.01-4.03,10.97  l-0.02-0.02C30.68,31.22,28.93,32,27,32c-2.79,0-5.2-1.64-6.32-4H24l2-2h-5.92C20.02,25.67,20,25.34,20,25s0.02-0.67,0.08-1H28l2-2  h-9.32c1.12-2.36,3.53-4,6.32-4c1.93,0,3.68,0.78,4.95,2.05l1.41-1.41C31.73,17.01,29.48,16,27,16c-3.91,0-7.25,2.51-8.48,6H16v2  h2.06C18.02,24.33,18,24.66,18,25s0.02,0.67,0.06,1H16v2h2.52c1.23,3.48,4.56,5.99,8.46,6C24.6,35.28,21.88,36,19,36  C9.63,36,2,28.37,2,19c0-6.07,3.2-11.41,8-14.41V6.1C8.24,6.44,6,7.72,6,11c0,2.78,2.64,3.44,4.76,3.97C12.96,15.52,14,15.9,14,17  c0,2.82-2.5,2.99-2.99,3C10.5,19.99,8,19.82,8,17H6c0,3.28,2.24,4.56,4,4.9V24h2v-2.1c1.76-0.341,4-1.62,4-4.9  c0-2.78-2.64-3.44-4.76-3.97C9.04,12.48,8,12.1,8,11c0-2.82,2.5-2.99,3-3c2.81,0,2.99,2.48,3,3h2c0-1.57-0.86-4.42-4-4.91V3.52  C14.13,2.54,16.51,2,19,2c0.34,0,0.67,0.01,1,0.03V0.02C19.67,0.01,19.33,0,19,0C8.52,0,0,8.52,0,19c0,10.48,8.52,19,19,19  c10.48,0,19-8.52,19-19C38,9.54,31.06,1.68,22,0.24z">
+                                </path>
+                            </svg>
+                            <div>
+                                <h6 class="mb-0">Exchange</h6><small class="text-muted">Crypto asset Exchange</small>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="m-link" href="market.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px"
+                                viewBox="0 0 64 64">
+
+                                <linearGradient id="crp_svg" gradientUnits="userSpaceOnUse" x1="13.876" y1="13.876"
+                                    x2="50.1249" y2="50.1249">
+                                    <stop offset="0" class="st2" />
+                                    <stop offset="1" class="st3" />
+                                </linearGradient>
+                                <polygon class="st1" points="50,34 50,30 39.465,30 55.517,20.732 53.518,17.269 37.464,26.537 42.732,17.412 39.268,15.412 
+                                        34,24.536 34,6 30,6 30,24.536 24.732,15.412 21.268,17.413 26.536,26.536 10.483,17.268 8.483,20.732 24.535,30 14,30 14,34 
+                                        24.537,34 8.483,43.269 10.483,46.732 26.536,37.465 21.268,46.589 24.732,48.589 30,39.464 30,58 34,58 34,39.465 39.268,48.589 
+                                        42.732,46.589 37.465,37.465 53.517,46.732 55.517,43.269 39.463,34 	" />
+                                <path class="st0"
+                                    d="M50,36c-2.209,0-4-1.791-4-4s1.791-4,4-4s4,1.791,4,4S52.209,36,50,36z M36,6c0,2.209-1.791,4-4,4
+                                        s-4-1.791-4-4s1.791-4,4-4S36,3.791,36,6z M36,58c0,2.209-1.791,4-4,4s-4-1.791-4-4s1.791-4,4-4S36,55.791,36,58z M18,32
+                                        c0-2.209-1.791-4-4-4s-4,1.791-4,4s1.791,4,4,4S18,34.209,18,32z M44.464,18.412c-1.104,1.913-3.552,2.568-5.464,1.464
+                                        c-1.914-1.104-2.568-3.551-1.465-5.464c1.105-1.913,3.551-2.569,5.465-1.464C44.912,14.052,45.568,16.499,44.464,18.412z
+                                        M11.483,15.536c1.913,1.104,2.569,3.551,1.464,5.464s-3.551,2.568-5.464,1.464S4.915,18.914,6.02,17S9.57,14.432,11.483,15.536z
+                                        M56.517,41.536c1.913,1.104,2.568,3.551,1.464,5.464s-3.551,2.569-5.464,1.465S49.948,44.913,51.053,43
+                                        S54.604,40.432,56.517,41.536z M25,44.124c-1.913-1.104-4.36-0.448-5.465,1.464c-1.104,1.913-0.448,4.36,1.465,5.465
+                                        s4.359,0.448,5.464-1.465C27.568,47.676,26.913,45.229,25,44.124z M26.464,14.412c1.104,1.913,0.448,4.36-1.465,5.464
+                                        s-4.359,0.449-5.464-1.464s-0.449-4.359,1.464-5.464S25.359,12.499,26.464,14.412z M7.483,41.536
+                                        c1.913-1.104,4.36-0.449,5.465,1.464s0.448,4.36-1.465,5.465C9.571,49.569,7.125,48.913,6.02,47S5.57,42.641,7.483,41.536z
+                                        M52.517,15.536c1.913-1.104,4.359-0.449,5.464,1.464s0.45,4.36-1.463,5.464s-4.36,0.448-5.465-1.465S50.604,16.641,52.517,15.536z
+                                        M39,44.124c-1.914,1.104-2.568,3.552-1.465,5.465s3.552,2.568,5.465,1.464s2.568-3.552,1.463-5.465
+                                        C43.359,43.676,40.912,43.02,39,44.124z M38,32c0,3.313-2.687,6-6,6s-6-2.687-6-6s2.687-6,6-6S38,28.687,38,32z" />
+
+                            </svg>
+                            <div>
+                                <h6 class="mb-0">Market</h6><small class="text-muted">Market CryptoPrice</small>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a class="m-link" href="p2p.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px"
+                                viewBox="0 0 64 64">
+
+                                <path class="st1"
+                                    d="M28,52h8v4h-8V52z M16,56h8v-4h-8V56z M4,36v8h4v-8H4z M4,48v8h8v-4H8v-4H4z M4,24v8h4v-8H4z M36,8h-8v4h8V8z
+                                            M48,8h-8v4h8V8z M60,28v-8h-4v8H60z M60,16V8h-8v4h4v4H60z M60,40v-8h-4v8H60z" />
+                                <path class="st0" d="M30,28H6c-1.104,0-2-0.896-2-2V10c0-1.104,0.896-2,2-2h24c1.104,0,2,0.896,2,2v16C32,27.104,31.104,28,30,28z
+                                            M8,24h20V12H8V24z M22,28c-0.843,0-7.157,0-8,0c-1.104,0-2,0.896-2,2s0.896,2,2,2c0.843,0,7.157,0,8,0c1.104,0,2-0.896,2-2
+                                        S23.104,28,22,28z M58,56H34c-1.104,0-2-0.896-2-2V38c0-1.104,0.896-2,2-2h24c1.104,0,2,0.896,2,2v16C60,55.104,59.104,56,58,56z
+                                            M36,52h20V40H36V52z M50,56c-0.844,0-7.157,0-8,0c-1.104,0-2,0.896-2,2s0.896,2,2,2c0.843,0,7.156,0,8,0c1.104,0,2-0.896,2-2
+                                        S51.104,56,50,56z" />
+
+                            </svg>
+                            <div>
+                                <h6 class="mb-0">P2P</h6><small class="text-muted">Person to Person</small>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="collapsed">
+                        <a class="m-link" data-bs-toggle="collapse" data-bs-target="#trade" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px"
+                                viewBox="0 0 64 64">
+
+                                <path class="st1" d="M32,18c0,7.733-6.267,14-14,14S4,25.733,4,18S10.267,4,18,4S32,10.267,32,18z M46,32c-7.732,0-14,6.268-14,14
+                                        s6.268,14,14,14s14-6.268,14-14S53.732,32,46,32z" />
+                                <path class="st0" d="M51.979,50.234l-2-11c-0.1-0.549-0.495-0.998-1.028-1.164s-1.113-0.023-1.508,0.371l-2.38,2.379L23.791,19.549
+                                        C23.923,19.054,24,18.537,24,18c0-3.313-2.687-6-6-6s-6,2.687-6,6s2.687,6,6,6c0.537,0,1.054-0.077,1.549-0.209L40.82,45.063
+                                        l-2.378,2.379c-0.395,0.395-0.537,0.975-0.372,1.508c0.167,0.533,0.615,0.93,1.164,1.029l11,2
+                                        C51.204,52.154,52.155,51.203,51.979,50.234z" />
+
+                            </svg>
+                            <div>
+                                <h6 class="mb-0">Trade</h6><small class="text-muted">Easiest Way to Trade</small>
+                            </div> <span class="arrow icofont-rounded-down ms-auto text-end fs-5"></span>
+                        </a>
+                        <!-- Menu: Sub menu ul -->
+                        <ul class="sub-menu collapse" id="trade">
+                            <li><a class="ms-link" href="convert-trade.html">Convert</a></li>
+
+                            <li><a class="ms-link" href="margin-trade.html">Margin</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="collapsed">
+                        <a class="m-link active" data-bs-toggle="collapse" data-bs-target="#app" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 38 38" width="24px"
+                                height="24px">
+                                <ellipse cx="19" cy="17" rx="13" ry="9" style="fill:var(--primary-color);"
+                                    data-st="fill:var(--primary-color);"></ellipse>
+                                <path class="st0"
+                                    d="M38,17c0,8.3-8.5,15-19,15c-0.6,0-1.3,0-1.9-0.1L11,38v-9.6c0.6,0.3,1.3,0.5,2,0.7v4l3.3-3.3  c0.9,0.1,1.7,0.2,2.7,0.2c9.4,0,17-5.8,17-13c0-7.2-7.6-13-17-13C9.6,4,2,9.8,2,17c0,4.3,2.8,8.1,7,10.5v2.2C3.6,27.1,0,22.4,0,17  C0,8.7,8.5,2,19,2C29.5,2,38,8.7,38,17z M16,18h-4v2h4V18z M16,14h-4v2h4V14z M22,18h2c2.2,0,4-1.8,4-4s-1.8-4-4-4h-4v14h2V18z   M22,12h2c1.1,0,2,0.9,2,2s-0.9,2-2,2h-2V12z">
+                                </path>
+                            </svg>
+                            <div>
+                                <h6 class="mb-0">App</h6><small class="text-muted">Chat Grop</small>
+                            </div> <span class="arrow icofont-rounded-down ms-auto text-end fs-5"></span>
+                        </a>
+                        <!-- Menu: Sub menu ul -->
+                        <ul class="sub-menu collapse show" id="app">
+                            <li><a class="ms-link" href="calendar.html">Calandar</a></li>
+                            <li><a class="ms-link active" href="chat.html"> Chat App</a></li>
+                        </ul>
+                    </li>
+
+
+
+                </ul>
+                <!-- Menu: menu collepce btn -->
+                <button type="button" class="btn btn-link sidebar-mini-btn text-muted">
+                    <span><i class="icofont-bubble-right"></i></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- main body area -->
+        <div class="main">
+            <!-- Body: Body -->
+            <div class="body d-flex">
+                <div class="container-xxl p-0">
+                    <div class="row g-0">
+                        <div class="col-12 d-flex">
+                            <!-- Card: -->
+                            <div class="card card-chat border-right border-top-0 border-bottom-0  w380">
+                                <div class="px-4 py-3 py-md-4">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control mb-1" placeholder="Search...">
+                                    </div>
+
+                                    <div class="nav nav-pills justify-content-between text-center" role="tablist">
+                                        <a class="flex-fill rounded border-0 nav-link active" data-bs-toggle="tab"
+                                            href="#chat-recent" role="tab" aria-selected="true">Chat</a>
+                                        <a class="flex-fill rounded border-0 nav-link" data-bs-toggle="tab"
+                                            href="#chat-groups" role="tab" aria-selected="false">Trade Groups</a>
+                                        <a class="flex-fill rounded border-0 nav-link" data-bs-toggle="tab"
+                                            href="#chat-contact" role="tab" aria-selected="false">Contact</a>
+                                    </div>
+                                </div>
+
+                                <div class="tab-content border-top">
+                                    <div class="tab-pane fade show active" id="chat-recent" role="tabpanel">
+                                        <ul class="list-unstyled list-group list-group-custom list-group-flush mb-0">
+                                            <li class="list-group-item px-md-4 py-3 py-md-4">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <img class="avatar rounded" src="assets/images/xs/avatar6.svg"
+                                                        alt="">
+                                                    <div class="flex-fill ms-3 text-truncate">
+                                                        <h6 class="d-flex justify-content-between mb-0"><span>Vanessa
+                                                                Knox</span> <small class="msg-time">10:45 AM</small>
+                                                        </h6>
+                                                        <span class="text-muted">There are many variations of
+                                                            passages</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="list-group-item px-md-4 py-3 py-md-4">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <img class="avatar rounded" src="assets/images/xs/avatar1.svg"
+                                                        alt="">
+                                                    <div class="flex-fill ms-3 text-truncate">
+                                                        <h6 class="d-flex justify-content-between mb-0"><span>Abigail
+                                                                Bell</span> <small class="msg-time">11:45 AM</small>
+                                                        </h6>
+                                                        <span class="text-muted">changed an issue from "In Progress"
+                                                            to</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="list-group-item px-md-4 py-3 py-md-4">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <div class="avatar rounded no-thumbnail">RH</div>
+                                                    <div class="flex-fill ms-3 text-truncate">
+                                                        <h6 class="d-flex justify-content-between mb-0"><span>Diane
+                                                                Blake</span> <small class="msg-time">12:45 AM</small>
+                                                        </h6>
+                                                        <span class="text-muted">It is a long established fact that a
+                                                            reader will be distracted</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                            <li class="list-group-item px-md-4 py-3 py-md-4">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <img class="avatar rounded" src="assets/images/xs/avatar4.svg"
+                                                        alt="">
+                                                    <div class="flex-fill ms-3 text-truncate">
+                                                        <h6 class="d-flex justify-content-between mb-0"><span>Megan
+                                                                Dyer</span> <small class="msg-time">12:46 AM</small>
+                                                        </h6>
+                                                        <span class="text-muted">Contrary to popular belief</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="list-group-item px-md-4 py-3 py-md-4">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <img class="avatar rounded" src="assets/images/xs/avatar1.svg"
+                                                        alt="">
+                                                    <div class="flex-fill ms-3 text-truncate">
+                                                        <h6 class="d-flex justify-content-between mb-0"><span>Abigail
+                                                                Bell</span> <small class="msg-time">12:47 PM</small>
+                                                        </h6>
+                                                        <span class="text-muted">changed an issue from "In Progress"
+                                                            to</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="list-group-item px-md-4 py-3 py-md-4">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <img class="avatar rounded" src="assets/images/xs/avatar5.svg"
+                                                        alt="">
+                                                    <div class="flex-fill ms-3 text-truncate">
+                                                        <h6 class="d-flex justify-content-between mb-0"><span>Diane
+                                                                Blake</span> <small class="msg-time">12:48 PM</small>
+                                                        </h6>
+                                                        <span class="text-muted">making it over 2000 years old</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                            <li class="list-group-item px-md-4 py-3 py-md-4 open">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <img class="avatar rounded" src="assets/images/xs/avatar3.svg"
+                                                        alt="">
+                                                    <div class="flex-fill ms-3 text-truncate">
+                                                        <h6 class="d-flex justify-content-between mb-0"><span>Vanessa
+                                                                Knox</span> <small class="msg-time">12:49 PM</small>
+                                                        </h6>
+                                                        <span class="text-muted">There are many variations of
+                                                            passages</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="list-group-item px-md-4 py-3 py-md-4">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <img class="avatar rounded" src="assets/images/xs/avatar7.svg"
+                                                        alt="">
+                                                    <div class="flex-fill ms-3 text-truncate">
+                                                        <h6 class="d-flex justify-content-between mb-0"><span>Donna
+                                                                Grant</span> <small class="msg-time">Thu</small></h6>
+                                                        <span class="text-muted">Add Calander Event</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                            <li class="list-group-item px-md-4 py-3 py-md-4">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <div class="avatar rounded no-thumbnail">RH</div>
+                                                    <div class="flex-fill ms-3 text-truncate">
+                                                        <h6 class="d-flex justify-content-between mb-0"><span>Diane
+                                                                Blake</span> <small class="msg-time">Wed</small></h6>
+                                                        <span class="text-muted">It is a long established fact that a
+                                                            reader will be distracted</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="list-group-item px-md-4 py-3 py-md-4">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <img class="avatar rounded" src="assets/images/xs/avatar3.svg"
+                                                        alt="">
+                                                    <div class="flex-fill ms-3 text-truncate">
+                                                        <h6 class="d-flex justify-content-between mb-0"><span>Vanessa
+                                                                Knox</span> <small class="msg-time">13/10/2020</small>
+                                                        </h6>
+                                                        <span class="text-muted">There are many variations of
+                                                            passages</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="list-group-item px-md-4 py-3 py-md-4">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <img class="avatar rounded" src="assets/images/xs/avatar4.svg"
+                                                        alt="">
+                                                    <div class="flex-fill ms-3 text-truncate">
+                                                        <h6 class="d-flex justify-content-between mb-0"><span>Megan
+                                                                Dyer</span> <small class="msg-time">13/10/2020</small>
+                                                        </h6>
+                                                        <span class="text-muted">Contrary to popular belief</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="list-group-item px-md-4 py-3 py-md-4">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <img class="avatar rounded" src="assets/images/xs/avatar5.svg"
+                                                        alt="">
+                                                    <div class="flex-fill ms-3 text-truncate">
+                                                        <h6 class="d-flex justify-content-between mb-0"><span>Diane
+                                                                Blake</span> <small class="msg-time">22/10/2020</small>
+                                                        </h6>
+                                                        <span class="text-muted">making it over 2000 years old</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-pane fade" id="chat-groups" role="tabpanel">
+                                        <ul class="list-unstyled list-group list-group-custom list-group-flush mb-0">
+                                            <li class="list-group-item px-md-4 py-3 py-md-4">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <div class="avatar rounded no-thumbnail">IN</div>
+                                                    <div class="flex-fill ms-3 text-truncate">
+                                                        <h6 class="d-flex justify-content-between mb-0"><span>Trade
+                                                                Future
+                                                            </span> <small class="msg-time">15/06/2021</small></h6>
+                                                        <span class="text-muted">The point of using Lorem Ipsum</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="list-group-item px-md-4 py-3 py-md-4">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <div class="avatar rounded no-thumbnail">OD</div>
+                                                    <div class="flex-fill ms-3 text-truncate">
+                                                        <h6 class="d-flex justify-content-between mb-0"><span>Trade Spot
+                                                            </span> <small class="msg-time">13/06/2021</small></h6>
+                                                        <span class="text-muted">If you are going to use a
+                                                            passage</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="list-group-item px-md-4 py-3 py-md-4">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <div class="avatar rounded no-thumbnail">PD</div>
+                                                    <div class="flex-fill ms-3 text-truncate">
+                                                        <h6 class="d-flex justify-content-between mb-0"><span>Battel
+                                                                Friends
+                                                            </span> <small class="msg-time">12/06/2021</small></h6>
+                                                        <span class="text-muted">The point of using Lorem Ipsum</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-pane fade" id="chat-contact" role="tabpanel">
+                                        <ul class="list-unstyled list-group list-group-custom list-group-flush mb-0">
+                                            <li class="list-group-item px-md-4 py-3 py-md-4">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <img class="avatar rounded" src="assets/images/xs/avatar10.svg"
+                                                        alt="">
+                                                    <div class="flex-fill ms-3 text-truncate">
+                                                        <div class="d-flex justify-content-between mb-0">
+                                                            <h6 class="mb-0">Hannah Gill</h6>
+                                                            <div class="text-muted">
+                                                                <i class="fa fa-heart-o pl-2 text-danger"></i>
+                                                                <i class="fa fa-trash pl-2 text-danger"></i>
+                                                            </div>
+                                                        </div>
+                                                        <span class="text-muted">hannahgill@cryptoon.com</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="list-group-item px-md-4 py-3 py-md-4">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <img class="avatar rounded" src="assets/images/xs/avatar2.svg"
+                                                        alt="">
+                                                    <div class="flex-fill ms-3 text-truncate">
+                                                        <div class="d-flex justify-content-between mb-0">
+                                                            <h6 class="mb-0">Abigail Bell</h6>
+                                                            <div class="text-muted">
+                                                                <i class="fa fa-heart pl-2 text-danger"></i>
+                                                                <i class="fa fa-trash pl-2 text-danger"></i>
+                                                            </div>
+                                                        </div>
+                                                        <span class="text-muted">abigailbell@cryptoon.com</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="list-group-item px-md-4 py-3 py-md-4">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <img class="avatar rounded" src="assets/images/xs/avatar1.svg"
+                                                        alt="">
+                                                    <div class="flex-fill ms-3 text-truncate">
+                                                        <div class="d-flex justify-content-between mb-0">
+                                                            <h6 class="mb-0">Megan Dyer</h6>
+                                                            <div class="text-muted">
+                                                                <i class="fa fa-heart-o pl-2 text-danger"></i>
+                                                                <i class="fa fa-trash pl-2 text-danger"></i>
+                                                            </div>
+                                                        </div>
+                                                        <span class="text-muted">barbara.kelly@cryptoon.com</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                            <li class="list-group-item px-md-4 py-3 py-md-4">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <img class="avatar rounded" src="assets/images/xs/avatar7.svg"
+                                                        alt="">
+                                                    <div class="flex-fill ms-3 text-truncate">
+                                                        <div class="d-flex justify-content-between mb-0">
+                                                            <h6 class="mb-0">Ruth Cornish</h6>
+                                                            <div class="text-muted">
+                                                                <i class="fa fa-heart pl-2 text-danger"></i>
+                                                                <i class="fa fa-trash pl-2 text-danger"></i>
+                                                            </div>
+                                                        </div>
+                                                        <span class="text-muted">ruthcornish@cryptoon.com</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="list-group-item px-md-4 py-3 py-md-4">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <img class="avatar rounded" src="assets/images/xs/avatar4.svg"
+                                                        alt="">
+                                                    <div class="flex-fill ms-3 text-truncate">
+                                                        <div class="d-flex justify-content-between mb-0">
+                                                            <h6 class="mb-0">Yvonne Duncan</h6>
+                                                            <div class="text-muted">
+                                                                <i class="fa fa-heart-o pl-2 text-danger"></i>
+                                                                <i class="fa fa-trash pl-2 text-danger"></i>
+                                                            </div>
+                                                        </div>
+                                                        <span class="text-muted">yvonneduncan@cryptoon.com</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="list-group-item px-md-4 py-3 py-md-4">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <img class="avatar rounded" src="assets/images/xs/avatar6.svg"
+                                                        alt="">
+                                                    <div class="flex-fill ms-3 text-truncate">
+                                                        <div class="d-flex justify-content-between mb-0">
+                                                            <h6 class="mb-0">Nicola Carl</h6>
+                                                            <div class="text-muted">
+                                                                <i class="fa fa-heart-o pl-2 text-danger"></i>
+                                                                <i class="fa fa-trash pl-2 text-danger"></i>
+                                                            </div>
+                                                        </div>
+                                                        <span class="text-muted">nicolacarl@cryptoon.com</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card: -->
+                            <div class="card card-chat-body border-0  w-100 px-4 px-md-5 py-3 py-md-4">
+
+                                <!-- Chat: Header -->
+                                <div
+                                    class="chat-header d-flex justify-content-between align-items-center border-bottom pb-3">
+                                    <div class="d-flex align-items-center">
+                                        <a href="user.html" title="Home" class="d-block d-xxl-none"><i
+                                                class="icofont-arrow-left fs-4"></i></a>
+                                        <a href="javascript:void(0);" title="">
+                                            <img class="avatar rounded" src="assets/images/xs/avatar2.svg" alt="avatar">
+                                        </a>
+                                        <div class="ms-3">
+                                            <h6 class="mb-0">Nirav Patel</h6>
+                                            <small class="text-muted">Last seen: 3 hours ago</small>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <a class="nav-link py-2 px-3 text-muted d-none d-lg-block"
+                                            href="javascript:void(0);"><i class="fa fa-camera"></i></a>
+                                        <a class="nav-link py-2 px-3 text-muted d-none d-lg-block"
+                                            href="javascript:void(0);"><i class="fa fa-video-camera"></i></a>
+                                        <a class="nav-link py-2 px-3 text-muted d-none d-lg-block"
+                                            href="javascript:void(0);"><i class="fa fa-gear"></i></a>
+                                        <a class="nav-link py-2 px-3 text-muted d-none d-lg-block"
+                                            href="javascript:void(0);"><i class="fa fa-info-circle"></i></a>
+                                        <a class="nav-link py-2 px-3 d-block d-lg-none chatlist-toggle" href="#"><i
+                                                class="fa fa-bars"></i></a>
+
+                                        <!-- Mobile menu -->
+                                        <div class="nav-item list-inline-item d-block d-xl-none">
+                                            <div class="dropdown">
+                                                <a class="nav-link text-muted px-0" href="#" data-bs-toggle="dropdown"
+                                                    aria-haspopup="true" aria-expanded="false">
+                                                    <i class="fa fa-ellipsis-v"></i>
+                                                </a>
+                                                <ul class="dropdown-menu shadow border-0">
+                                                    <li><a class="dropdown-item" href="user.html"><i
+                                                                class="fa fa-camera"></i> Share Images</a></li>
+                                                    <li><a class="dropdown-item" href="user.html"><i
+                                                                class="fa fa-video-camera"></i> Video Call</a></li>
+                                                    <li><a class="dropdown-item" href="user.html"><i
+                                                                class="fa fa-gear"></i> Settings</a></li>
+                                                    <li><a class="dropdown-item" href="user.html"><i
+                                                                class="fa fa-info-circle"></i> Info</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Chat: body -->
+                                <ul class="chat-history list-unstyled mb-0 py-lg-5 py-md-4 py-3 flex-grow-1">
+                                    <!-- Chat: left -->
+                                    <li class="mb-3 d-flex flex-row align-items-end">
+                                        <div class="max-width-70">
+                                            <div class="user-info mb-1">
+                                                <img class="avatar sm rounded-circle me-1"
+                                                    src="assets/images/xs/avatar2.svg" alt="avatar">
+                                                <span class="text-muted small">10:10 AM, Today</span>
+                                            </div>
+                                            <div class="card border-0 p-3">
+                                                <div class="message"> Hi Nirav, how are you?</div>
+                                            </div>
+                                        </div>
+                                        <!-- More option -->
+                                        <div class="btn-group">
+                                            <a href="#" class="nav-link py-2 px-3 text-muted" data-bs-toggle="dropdown"
+                                                aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                            <ul class="dropdown-menu border-0 shadow">
+                                                <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                <li><a class="dropdown-item" href="#">Share</a></li>
+                                                <li><a class="dropdown-item" href="#">Delete</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <!-- Chat: right -->
+                                    <li class="mb-3 d-flex flex-row-reverse align-items-end">
+                                        <div class="max-width-70 text-right">
+                                            <div class="user-info mb-1">
+                                                <span class="text-muted small">10:12 AM, Today</span>
+                                            </div>
+                                            <div class="card border-0 p-3 bg-primary text-light">
+                                                <div class="message">Fine</div>
+                                            </div>
+                                        </div>
+                                        <!-- More option -->
+                                        <div class="btn-group">
+                                            <a href="#" class="nav-link py-2 px-3 text-muted" data-bs-toggle="dropdown"
+                                                aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                            <ul class="dropdown-menu border-0 shadow">
+                                                <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                <li><a class="dropdown-item" href="#">Share</a></li>
+                                                <li><a class="dropdown-item" href="#">Delete</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <!-- Chat: left -->
+                                    <li class="mb-3 d-flex flex-row align-items-end">
+                                        <div class="max-width-70">
+                                            <div class="user-info mb-1">
+                                                <img class="avatar sm rounded-circle me-1"
+                                                    src="assets/images/xs/avatar2.svg" alt="avatar">
+                                                <span class="text-muted small">10:10 AM, Today</span>
+                                            </div>
+                                            <div class="card border-0 p-3">
+                                                <div class="message">Tell me About Today Market</div>
+                                            </div>
+                                        </div>
+                                        <!-- More option -->
+                                        <div class="btn-group">
+                                            <a href="#" class="nav-link py-2 px-3 text-muted" data-bs-toggle="dropdown"
+                                                aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                            <ul class="dropdown-menu border-0 shadow">
+                                                <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                <li><a class="dropdown-item" href="#">Share</a></li>
+                                                <li><a class="dropdown-item" href="#">Delete</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <!-- Chat: left -->
+                                    <li class="mb-3 d-flex flex-row align-items-end">
+                                        <div class="max-width-70">
+                                            <div class="user-info mb-1">
+                                                <img class="avatar sm rounded-circle me-1"
+                                                    src="assets/images/xs/avatar2.svg" alt="avatar">
+                                                <span class="text-muted small">10:10 AM, Today</span>
+                                            </div>
+                                            <div class="card border-0 p-3">
+                                                <div class="message"> and also BTC Upadte Long/Short?</div>
+                                            </div>
+                                        </div>
+                                        <!-- More option -->
+                                        <div class="btn-group">
+                                            <a href="#" class="nav-link py-2 px-3 text-muted" data-bs-toggle="dropdown"
+                                                aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                            <ul class="dropdown-menu border-0 shadow">
+                                                <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                <li><a class="dropdown-item" href="#">Share</a></li>
+                                                <li><a class="dropdown-item" href="#">Delete</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <!-- Chat: right -->
+                                    <li class="mb-3 d-flex flex-row-reverse align-items-end">
+                                        <div class="max-width-70 text-right">
+                                            <div class="user-info mb-1">
+                                                <span class="text-muted small">10:12 AM, Today</span>
+                                            </div>
+                                            <div class="card border-0 p-3 bg-primary text-light">
+                                                <div class="message">Today Market Positive Moment you can BTC for Long
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- More option -->
+                                        <div class="btn-group">
+                                            <a href="#" class="nav-link py-2 px-3 text-muted" data-bs-toggle="dropdown"
+                                                aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                            <ul class="dropdown-menu border-0 shadow">
+                                                <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                <li><a class="dropdown-item" href="#">Share</a></li>
+                                                <li><a class="dropdown-item" href="#">Delete</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <!-- Chat: left -->
+                                    <li class="mb-3 d-flex flex-row align-items-end">
+                                        <div class="max-width-70">
+                                            <div class="user-info mb-1">
+                                                <img class="avatar sm rounded-circle me-1"
+                                                    src="assets/images/xs/avatar2.svg" alt="avatar">
+                                                <span class="text-muted small">10:10 AM, Today</span>
+                                            </div>
+                                            <div class="card border-0 p-3">
+                                                <div class="message">
+                                                    <p>My portfolio ScreenShot</p>
+                                                    <img class="w120 img-thumbnail" src="assets/images/gallery/1.jpg"
+                                                        alt="" />
+                                                    <img class="w120 img-thumbnail" src="assets/images/gallery/2.jpg"
+                                                        alt="" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- More option -->
+                                        <div class="btn-group">
+                                            <a href="#" class="nav-link py-2 px-3 text-muted" data-bs-toggle="dropdown"
+                                                aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                            <ul class="dropdown-menu border-0 shadow">
+                                                <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                <li><a class="dropdown-item" href="#">Share</a></li>
+                                                <li><a class="dropdown-item" href="#">Delete</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <!-- Chat: right -->
+                                    <li class="mb-3 d-flex flex-row-reverse align-items-end">
+                                        <div class="max-width-70 text-right">
+                                            <div class="user-info mb-1">
+                                                <span class="text-muted small">10:12 AM, Today</span>
+                                            </div>
+                                            <div class="card border-0 p-3 bg-primary text-light">
+                                                <div class="message">Okay, will check and let you know.</div>
+                                            </div>
+                                        </div>
+                                        <!-- More option -->
+                                        <div class="btn-group">
+                                            <a href="#" class="nav-link py-2 px-3 text-muted" data-bs-toggle="dropdown"
+                                                aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                            <ul class="dropdown-menu border-0 shadow">
+                                                <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                <li><a class="dropdown-item" href="#">Share</a></li>
+                                                <li><a class="dropdown-item" href="#">Delete</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <!-- Chat: Footer -->
+                                <div class="chat-message">
+                                    <button class="btn btn-dark" type="button">Send</button>
+                                    <textarea class="form-control" placeholder="Enter text here..."></textarea>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div> <!-- row end -->
+                </div>
+            </div>
+            <!-- Modal Custom Settings-->
+            <div class="modal fade right" id="Settingmodal" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog  modal-sm">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Custome Settings</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body custom_setting">
+                            <!-- Settings: Color -->
+
+                            <!-- Settings: Template dynamics -->
+
+                            <!-- Settings: Font -->
+
+                            <!-- Settings: Light/dark -->
+                            <div class="setting-mode py-3">
+                                <h6 class="card-title mb-2 fs-6 d-flex align-items-center"><i
+                                        class="icofont-layout fs-4 me-2 text-primary"></i>Contrast Layout</h6>
+                                <ul class="list-group list-unstyled mb-0 mt-1">
+                                    <li class="list-group-item d-flex align-items-center py-1 px-2">
+                                        <div class="form-check form-switch theme-switch mb-0">
+                                            <input class="form-check-input" type="checkbox" id="theme-switch">
+                                            <label class="form-check-label" for="theme-switch">Enable Dark Mode!</label>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item d-flex align-items-center py-1 px-2">
+                                        <div class="form-check form-switch theme-high-contrast mb-0">
+                                            <input class="form-check-input" type="checkbox" id="theme-high-contrast">
+                                            <label class="form-check-label" for="theme-high-contrast">Enable High
+                                                Contrast</label>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Jquery Core Js -->
+    <script src="assets/bundles/libscripts.bundle.js"></script>
+
+    <!-- Jquery Page Js -->
+    <script src="./assets/js/template.js"></script>
+</body>
+
+<!-- chat.html , Mon, 05 May 2025 10:39:55 GMT -->
+
+</html>

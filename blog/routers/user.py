@@ -1,11 +1,10 @@
-from fastapi import APIRouter, Depends, status, HTTPException
-from .. import schemas, models, database, hashing
+from fastapi import APIRouter, Depends, status
+from .. import schemas, database
 from typing import List
 from sqlalchemy.orm import Session
 from ..repository import user_repository as repository
 
 get_db = database.get_db
-Hash = hashing.Hash
 
 router = APIRouter(prefix="/user", tags=["Users"])
 

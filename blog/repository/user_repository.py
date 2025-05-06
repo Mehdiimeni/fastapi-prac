@@ -1,6 +1,8 @@
 from sqlalchemy.orm import Session
-from .. import models, schemas
+from .. import models, schemas, hashing
 from fastapi import HTTPException, status
+
+Hash = hashing.Hash
 
 
 def get_all(db: Session):
@@ -11,11 +13,12 @@ def get_all(db: Session):
 def create(request: schemas.User, db: Session):
     new_user = models.User(name=request.name,
                            email=request.email,
-                           password=request.password)
+                           password=Hash.bcrypt(request.password))
     db.add(new_user)
     db.commit()
     db.refresh(new_user)
     return new_user
+
 
 def show(id: int, db: Session):
     user = db.query(models.User).filter(models.User.id == id).first()
@@ -23,6 +26,7 @@ def show(id: int, db: Session):
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,
                             detail=f"User with id {id} not found")
     return user
+
 
 def update(id: int, request: schemas.User, db: Session):
     user = db.query(models.User).filter(models.User.id == id)

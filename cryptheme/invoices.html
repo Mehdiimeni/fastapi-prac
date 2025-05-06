@@ -1,0 +1,961 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<!-- invoices.html , Mon, 05 May 2025 10:40:13 GMT -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Crypto Ex Invoices </title>
+    <!-- Favicon-->
+
+    <!-- project css file  -->
+    <link rel="stylesheet" href="assets/css/cryptoon.style.min.css">
+</head>
+
+<body>
+    <div id="cryptoon-layout" class="theme-orange">
+
+        <!-- sidebar -->
+        <div class="sidebar py-2 py-md-2 me-0 border-end">
+            <div class="d-flex flex-column h-100">
+                <!-- Logo -->
+                <a href="user.html" class="mb-0 brand-icon">
+                    <span class="logo-icon">
+                        <i class="fa fa-gg-circle fs-3"></i>
+                    </span>
+                    <span class="logo-text">Crypto Ex</span>
+                </a>
+                <!-- Menu: main ul -->
+                <ul class="menu-list flex-grow-1 mt-4 px-1">
+                    <li>
+                        <a class="m-link" href="user.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px"
+                                viewBox="0 0 38 38">
+                                <path xmlns="http://www.w3.org/2000/svg"
+                                    d="M34,18.756V34H22v-8h-6v8h-4V14.31l7-3.89L34,18.756z M34,16.472V6h-6v7.139L34,16.472z"
+                                    style="fill:var(--primary-color);" data-st="fill:var(--chart-color4);"></path>
+                                <path xmlns="http://www.w3.org/2000/svg" class="st0"
+                                    d="M34,14.19V6h-6v2h4v5.08L19,5.86L0.51,16.13l0.98,1.74L19,8.14l17.51,9.73l0.98-1.74L34,14.19z M32,32h-8v-8H14  v8H6V17.653l-2,1.111V34h12v-8h6v8h12V18.764l-2-1.111V32z">
+                                </path>
+                            </svg>
+                            <div>
+                                <h6 class="mb-0">Dashboard</h6><small class="text-muted">Analytics Report</small>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="m-link" href="exchange.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px"
+                                viewBox="0 0 38 38">
+                                <path xmlns="http://www.w3.org/2000/svg"
+                                    d="M20,25c0-1.698,0-6.334,0-11c0-4.418-1.582-8-6-8c-2.083,0-4.072,0.888-5.538,2.335  C5.708,11.053,4,14.826,4,19c0,8.284,6.716,15,15,15c2.736,0,5.294-0.745,7.503-2.025C22.87,31.719,20,28.698,20,25z"
+                                    style="fill:var(--primary-color);" data-st="fill:var(--chart-color4);"></path>
+                                <path xmlns="http://www.w3.org/2000/svg" class="st0"
+                                    d="M15,11l-1,0.01c0,0,0,0,0-0.01H15z M22,0.24v2.04C29.95,3.69,36,10.65,36,19c0,4.17-1.52,8.01-4.03,10.97  l-0.02-0.02C30.68,31.22,28.93,32,27,32c-2.79,0-5.2-1.64-6.32-4H24l2-2h-5.92C20.02,25.67,20,25.34,20,25s0.02-0.67,0.08-1H28l2-2  h-9.32c1.12-2.36,3.53-4,6.32-4c1.93,0,3.68,0.78,4.95,2.05l1.41-1.41C31.73,17.01,29.48,16,27,16c-3.91,0-7.25,2.51-8.48,6H16v2  h2.06C18.02,24.33,18,24.66,18,25s0.02,0.67,0.06,1H16v2h2.52c1.23,3.48,4.56,5.99,8.46,6C24.6,35.28,21.88,36,19,36  C9.63,36,2,28.37,2,19c0-6.07,3.2-11.41,8-14.41V6.1C8.24,6.44,6,7.72,6,11c0,2.78,2.64,3.44,4.76,3.97C12.96,15.52,14,15.9,14,17  c0,2.82-2.5,2.99-2.99,3C10.5,19.99,8,19.82,8,17H6c0,3.28,2.24,4.56,4,4.9V24h2v-2.1c1.76-0.341,4-1.62,4-4.9  c0-2.78-2.64-3.44-4.76-3.97C9.04,12.48,8,12.1,8,11c0-2.82,2.5-2.99,3-3c2.81,0,2.99,2.48,3,3h2c0-1.57-0.86-4.42-4-4.91V3.52  C14.13,2.54,16.51,2,19,2c0.34,0,0.67,0.01,1,0.03V0.02C19.67,0.01,19.33,0,19,0C8.52,0,0,8.52,0,19c0,10.48,8.52,19,19,19  c10.48,0,19-8.52,19-19C38,9.54,31.06,1.68,22,0.24z">
+                                </path>
+                            </svg>
+                            <div>
+                                <h6 class="mb-0">Exchange</h6><small class="text-muted">Crypto asset Exchange</small>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="m-link" href="market.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px"
+                                viewBox="0 0 64 64">
+
+                                <linearGradient id="crp_svg" gradientUnits="userSpaceOnUse" x1="13.876" y1="13.876"
+                                    x2="50.1249" y2="50.1249">
+                                    <stop offset="0" class="st2" />
+                                    <stop offset="1" class="st3" />
+                                </linearGradient>
+                                <polygon class="st1" points="50,34 50,30 39.465,30 55.517,20.732 53.518,17.269 37.464,26.537 42.732,17.412 39.268,15.412 
+                                        34,24.536 34,6 30,6 30,24.536 24.732,15.412 21.268,17.413 26.536,26.536 10.483,17.268 8.483,20.732 24.535,30 14,30 14,34 
+                                        24.537,34 8.483,43.269 10.483,46.732 26.536,37.465 21.268,46.589 24.732,48.589 30,39.464 30,58 34,58 34,39.465 39.268,48.589 
+                                        42.732,46.589 37.465,37.465 53.517,46.732 55.517,43.269 39.463,34 	" />
+                                <path class="st0"
+                                    d="M50,36c-2.209,0-4-1.791-4-4s1.791-4,4-4s4,1.791,4,4S52.209,36,50,36z M36,6c0,2.209-1.791,4-4,4
+                                        s-4-1.791-4-4s1.791-4,4-4S36,3.791,36,6z M36,58c0,2.209-1.791,4-4,4s-4-1.791-4-4s1.791-4,4-4S36,55.791,36,58z M18,32
+                                        c0-2.209-1.791-4-4-4s-4,1.791-4,4s1.791,4,4,4S18,34.209,18,32z M44.464,18.412c-1.104,1.913-3.552,2.568-5.464,1.464
+                                        c-1.914-1.104-2.568-3.551-1.465-5.464c1.105-1.913,3.551-2.569,5.465-1.464C44.912,14.052,45.568,16.499,44.464,18.412z
+                                        M11.483,15.536c1.913,1.104,2.569,3.551,1.464,5.464s-3.551,2.568-5.464,1.464S4.915,18.914,6.02,17S9.57,14.432,11.483,15.536z
+                                        M56.517,41.536c1.913,1.104,2.568,3.551,1.464,5.464s-3.551,2.569-5.464,1.465S49.948,44.913,51.053,43
+                                        S54.604,40.432,56.517,41.536z M25,44.124c-1.913-1.104-4.36-0.448-5.465,1.464c-1.104,1.913-0.448,4.36,1.465,5.465
+                                        s4.359,0.448,5.464-1.465C27.568,47.676,26.913,45.229,25,44.124z M26.464,14.412c1.104,1.913,0.448,4.36-1.465,5.464
+                                        s-4.359,0.449-5.464-1.464s-0.449-4.359,1.464-5.464S25.359,12.499,26.464,14.412z M7.483,41.536
+                                        c1.913-1.104,4.36-0.449,5.465,1.464s0.448,4.36-1.465,5.465C9.571,49.569,7.125,48.913,6.02,47S5.57,42.641,7.483,41.536z
+                                        M52.517,15.536c1.913-1.104,4.359-0.449,5.464,1.464s0.45,4.36-1.463,5.464s-4.36,0.448-5.465-1.465S50.604,16.641,52.517,15.536z
+                                        M39,44.124c-1.914,1.104-2.568,3.552-1.465,5.465s3.552,2.568,5.465,1.464s2.568-3.552,1.463-5.465
+                                        C43.359,43.676,40.912,43.02,39,44.124z M38,32c0,3.313-2.687,6-6,6s-6-2.687-6-6s2.687-6,6-6S38,28.687,38,32z" />
+
+                            </svg>
+                            <div>
+                                <h6 class="mb-0">Market</h6><small class="text-muted">Market CryptoPrice</small>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a class="m-link" href="p2p.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px"
+                                viewBox="0 0 64 64">
+
+                                <path class="st1"
+                                    d="M28,52h8v4h-8V52z M16,56h8v-4h-8V56z M4,36v8h4v-8H4z M4,48v8h8v-4H8v-4H4z M4,24v8h4v-8H4z M36,8h-8v4h8V8z
+                                            M48,8h-8v4h8V8z M60,28v-8h-4v8H60z M60,16V8h-8v4h4v4H60z M60,40v-8h-4v8H60z" />
+                                <path class="st0" d="M30,28H6c-1.104,0-2-0.896-2-2V10c0-1.104,0.896-2,2-2h24c1.104,0,2,0.896,2,2v16C32,27.104,31.104,28,30,28z
+                                            M8,24h20V12H8V24z M22,28c-0.843,0-7.157,0-8,0c-1.104,0-2,0.896-2,2s0.896,2,2,2c0.843,0,7.157,0,8,0c1.104,0,2-0.896,2-2
+                                        S23.104,28,22,28z M58,56H34c-1.104,0-2-0.896-2-2V38c0-1.104,0.896-2,2-2h24c1.104,0,2,0.896,2,2v16C60,55.104,59.104,56,58,56z
+                                            M36,52h20V40H36V52z M50,56c-0.844,0-7.157,0-8,0c-1.104,0-2,0.896-2,2s0.896,2,2,2c0.843,0,7.156,0,8,0c1.104,0,2-0.896,2-2
+                                        S51.104,56,50,56z" />
+
+                            </svg>
+                            <div>
+                                <h6 class="mb-0">P2P</h6><small class="text-muted">Person to Person</small>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="collapsed">
+                        <a class="m-link" data-bs-toggle="collapse" data-bs-target="#trade" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px"
+                                viewBox="0 0 64 64">
+
+                                <path class="st1" d="M32,18c0,7.733-6.267,14-14,14S4,25.733,4,18S10.267,4,18,4S32,10.267,32,18z M46,32c-7.732,0-14,6.268-14,14
+                                        s6.268,14,14,14s14-6.268,14-14S53.732,32,46,32z" />
+                                <path class="st0" d="M51.979,50.234l-2-11c-0.1-0.549-0.495-0.998-1.028-1.164s-1.113-0.023-1.508,0.371l-2.38,2.379L23.791,19.549
+                                        C23.923,19.054,24,18.537,24,18c0-3.313-2.687-6-6-6s-6,2.687-6,6s2.687,6,6,6c0.537,0,1.054-0.077,1.549-0.209L40.82,45.063
+                                        l-2.378,2.379c-0.395,0.395-0.537,0.975-0.372,1.508c0.167,0.533,0.615,0.93,1.164,1.029l11,2
+                                        C51.204,52.154,52.155,51.203,51.979,50.234z" />
+
+                            </svg>
+                            <div>
+                                <h6 class="mb-0">Trade</h6><small class="text-muted">Easiest Way to Trade</small>
+                            </div> <span class="arrow icofont-rounded-down ms-auto text-end fs-5"></span>
+                        </a>
+                        <!-- Menu: Sub menu ul -->
+                        <ul class="sub-menu collapse" id="trade">
+                            <li><a class="ms-link" href="convert-trade.html">Convert</a></li>
+
+                            <li><a class="ms-link" href="margin-trade.html">Margin</a></li>
+
+                        </ul>
+                    </li>
+
+
+
+
+
+                </ul>
+                <!-- Menu: menu collepce btn -->
+                <button type="button" class="btn btn-link sidebar-mini-btn text-muted">
+                    <span><i class="icofont-bubble-right"></i></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- main body area -->
+        <div class="main px-lg-4 px-md-4">
+
+            <!-- Body: Header -->
+            <div class="header">
+                <nav class="navbar py-4">
+                    <div class="container-xxl">
+
+                        <!-- header rightbar icon -->
+                        <div class="h-right d-flex align-items-center mr-5 mr-lg-0 order-1">
+                            <div class="d-flex">
+                                <a class="nav-link text-primary collapsed" href="wallet.html" title="Wallet">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30px" height="30px"
+                                        viewBox="0 0 64 64">
+
+                                        <path class="st1" d="M15,24c-3.86,0-7,2.691-7,6v20c0,3.309,3.14,6,7,6h41V32H15c-1.598,0-3-0.935-3-2s1.402-2,3-2h5.25
+                                                c0,0,1-5,5.75-5s6,5,6,5h22v-4H15z" />
+                                        <path class="st0" d="M42,4c-4.418,0-8,3.582-8,8s3.582,8,8,8c4.417,0,8-3.582,8-8S46.417,4,42,4z M42,16c-2.208,0-4-1.792-4-4
+                                                s1.792-4,4-4s4,1.792,4,4S44.208,16,42,16z" />
+                                        <path class="st0"
+                                            d="M26,20c-4.418,0-8,3.582-8,8h4c0-2.208,1.792-4,4-4s4,1.792,4,4h4C34,23.582,30.418,20,26,20z" />
+
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="dropdown notifications zindex-popover">
+                                <a class="nav-link dropdown-toggle pulse" href="#" role="button"
+                                    data-bs-toggle="dropdown">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25px" height="25px"
+                                        viewBox="0 0 38 38">
+                                        <path
+                                            d="M36,34v-2h-2.98c-0.598-0.363-1.081-3.663-1.4-5.847c-0.588-4.075-1.415-9.798-4.146-13.723  C26.584,12.154,25.599,12,24.5,12c-3.646,0-5.576,1.657-7.106,4.086C15.089,19.746,14,30.126,14,33c0,2.757,2.243,5,5,5  c2.414,0,4.435-1.721,4.898-4H36z"
+                                            style="fill:var(--primary-color);" data-st="fill:var(--chart-color4);">
+                                        </path>
+                                        <path class="st0"
+                                            d="M33.02,32c-0.598-0.363-1.081-3.663-1.4-5.847c-0.851-5.899-2.199-15.254-9.101-17.604  C23.433,7.643,24,6.386,24,5c0-2.757-2.243-5-5-5s-5,2.243-5,5c0,1.386,0.567,2.643,1.482,3.549  c-6.902,2.35-8.25,11.705-9.101,17.604C6.209,27.324,5.991,28.813,5.733,30h2.042c0.192-0.961,0.376-2.127,0.586-3.562  C9.36,19.501,10.73,10,19,10c8.27,0,9.64,9.501,10.641,16.442c0.386,2.636,0.682,4.394,1.108,5.558H2v2h12.101  c0.464,2.279,2.485,4,4.899,4c2.415,0,4.435-1.721,4.899-4H36v-2H33.02z M19,8c-1.654,0-3-1.346-3-3s1.346-3,3-3s3,1.346,3,3  S20.654,8,19,8z M19,36c-1.304,0-2.416-0.836-2.829-2h5.658C21.416,35.164,20.304,36,19,36z">
+                                        </path>
+                                    </svg>
+                                    <span class="pulse-ring"></span>
+                                </a>
+                                <div id="NotificationsDiv"
+                                    class="dropdown-menu rounded-lg shadow border-0 dropdown-animation dropdown-menu-md-end p-0 m-0">
+                                    <div class="card border-0 w380">
+                                        <div class="card-header border-0 p-3">
+                                            <h5 class="mb-0 font-weight-light d-flex justify-content-between">
+                                                <span>Notifications</span>
+                                                <span class="badge text-white">06</span>
+                                            </h5>
+                                        </div>
+                                        <div class="tab-content card-body">
+                                            <div class="tab-pane fade show active">
+                                                <ul class="list-unstyled list mb-0">
+                                                    <li class="py-2 mb-1 border-bottom">
+                                                        <a href="javascript:void(0);" class="d-flex">
+                                                            <img class="avatar rounded-circle"
+                                                                src="assets/images/xs/avatar1.svg" alt="">
+                                                            <div class="flex-fill ms-2">
+                                                                <p class="d-flex justify-content-between mb-0 "><span
+                                                                        class="font-weight-bold">user 2</span>
+                                                                    <small>2MIN</small>
+                                                                </p>
+                                                                <span class="">Added New Ico Coin 2025-05-25 <span
+                                                                        class="badge bg-success">Add</span></span>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-2 mb-1 border-bottom">
+                                                        <a href="javascript:void(0);" class="d-flex">
+                                                            <div class="avatar rounded-circle no-thumbnail">U3</div>
+                                                            <div class="flex-fill ms-2">
+                                                                <p class="d-flex justify-content-between mb-0 "><span
+                                                                        class="font-weight-bold">user 3</span>
+                                                                    <small>13MIN</small>
+                                                                </p>
+                                                                <span class="">Invoice generator </span>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-2 mb-1 border-bottom">
+                                                        <a href="javascript:void(0);" class="d-flex">
+                                                            <img class="avatar rounded-circle"
+                                                                src="assets/images/xs/avatar3.svg" alt="">
+                                                            <div class="flex-fill ms-2">
+                                                                <p class="d-flex justify-content-between mb-0 "><span
+                                                                        class="font-weight-bold">user 4</span>
+                                                                    <small>1HR</small>
+                                                                </p>
+                                                                <span class="">User Document Verified</span>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-2 mb-1 border-bottom">
+                                                        <a href="javascript:void(0);" class="d-flex">
+                                                            <img class="avatar rounded-circle"
+                                                                src="assets/images/xs/avatar5.svg" alt="">
+                                                            <div class="flex-fill ms-2">
+                                                                <p class="d-flex justify-content-between mb-0 "><span
+                                                                        class="font-weight-bold">user 5</span>
+                                                                    <small>13MIN</small>
+                                                                </p>
+                                                                <span class="">New Coin Listing</span>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-2 mb-1 border-bottom">
+                                                        <a href="javascript:void(0);" class="d-flex">
+                                                            <img class="avatar rounded-circle"
+                                                                src="assets/images/xs/avatar6.svg" alt="">
+                                                            <div class="flex-fill ms-2">
+                                                                <p class="d-flex justify-content-between mb-0 "><span
+                                                                        class="font-weight-bold">user 6</span>
+                                                                    <small>1HR</small>
+                                                                </p>
+                                                                <span class="">15 More Customer Supprot</span>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-2">
+                                                        <a href="javascript:void(0);" class="d-flex">
+                                                            <img class="avatar rounded-circle"
+                                                                src="assets/images/xs/avatar7.svg" alt="">
+                                                            <div class="flex-fill ms-2">
+                                                                <p class="d-flex justify-content-between mb-0 "><span
+                                                                        class="font-weight-bold">user 7</span>
+                                                                    <small class="">1DAY</small>
+                                                                </p>
+                                                                <span class="">Coin List Entry Updated</span>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a class="card-footer text-center border-top-0" href="#"> View all
+                                            notifications</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown zindex-popover">
+                                <a class="nav-link dropdown-toggle pulse" href="#" role="button"
+                                    data-bs-toggle="dropdown">
+                                    <img src="assets/images/flag/GB.png" alt="">
+                                </a>
+                                <div
+                                    class="dropdown-menu rounded-lg shadow border-0 dropdown-animation dropdown-menu-md-end p-0 m-0">
+                                    <div class="card border-0">
+                                        <ul class="list-unstyled py-2 px-3">
+                                            <li>
+                                                <a href="#" id="ltr-link"><img src="assets/images/flag/GB.png" alt="">
+                                                    English</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" id="rtl-link"><img src="assets/images/flag/AR.png" alt="">
+                                                    Arabic</a>
+                                            </li>
+
+
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown user-profile ml-2 ml-sm-3 d-flex align-items-center zindex-popover">
+                                <a class="nav-link dropdown-toggle pulse p-0" href="#" role="button"
+                                    data-bs-toggle="dropdown" data-bs-display="static">
+                                    <img class="avatar lg rounded-circle img-thumbnail"
+                                        src="assets/images/profile_av.svg" alt="profile">
+                                </a>
+                                <div
+                                    class="dropdown-menu rounded-lg shadow border-0 dropdown-animation dropdown-menu-end p-0 m-0">
+                                    <div class="card border-0 w280">
+                                        <div class="card-body pb-0">
+                                            <div class="d-flex py-1">
+                                                <img class="avatar rounded-circle" src="assets/images/profile_av.svg"
+                                                    alt="profile">
+                                                <div class="flex-fill ms-3">
+                                                    <p class="mb-0"><span class="font-weight-bold">User </span></p>
+                                                    <small class="">User@gmail.com</small>
+                                                </div>
+                                            </div>
+
+                                            <div>
+                                                <hr class="dropdown-divider border-dark">
+                                            </div>
+                                        </div>
+                                        <div class="list-group m-2 ">
+                                            <a href="profile.html"
+                                                class="list-group-item list-group-item-action border-0">
+                                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px"
+                                                    height="24px" viewBox="0 0 38 38" class="me-3">
+                                                    <path xmlns="http://www.w3.org/2000/svg"
+                                                        d="M36.15,38H1.85l0.16-1.14c0.92-6.471,3.33-7.46,6.65-8.83c0.43-0.17,0.87-0.36,1.34-0.561  c0.19-0.08,0.38-0.17,0.58-0.26c1.32-0.61,2.14-1.05,2.64-1.45c0.18,0.48,0.47,1.13,0.93,1.78C15.03,28.78,16.53,30,19,30  c2.47,0,3.97-1.22,4.85-2.46c0.46-0.65,0.75-1.3,0.931-1.78c0.5,0.4,1.319,0.84,2.64,1.45c0.2,0.09,0.39,0.17,0.58,0.26  c0.47,0.2,0.91,0.391,1.34,0.561c3.32,1.37,5.73,2.359,6.65,8.83L36.15,38z M20,13v4h-2v-4H20z"
+                                                        style="fill:var(--primary-color);"
+                                                        data-st="fill:var(--chart-color4);"></path>
+                                                    <path xmlns="http://www.w3.org/2000/svg" class="st0"
+                                                        d="M21.67,17.34C21.22,18.27,20.29,19,19,19s-2.22-0.73-2.67-1.66l-1.79,0.891C15.31,19.78,16.88,21,19,21  s3.69-1.22,4.46-2.77L21.67,17.34z M15,10.85c-0.61,0-1.1,0.38-1.1,1.65s0.49,1.65,1.1,1.65s1.1-0.38,1.1-1.65S15.61,10.85,15,10.85  z M23,10.85c-0.61,0-1.1,0.38-1.1,1.65s0.489,1.65,1.1,1.65s1.1-0.38,1.1-1.65S23.61,10.85,23,10.85z M35.99,36.86  c-0.92-6.471-3.33-7.46-6.65-8.83c-0.43-0.17-0.87-0.36-1.34-0.561c-0.19-0.09-0.38-0.17-0.58-0.26c-1.32-0.61-2.14-1.05-2.64-1.45  c-0.521-0.42-0.7-0.8-0.761-1.29C26.55,22.74,28,19.8,28,17V4.56l-1.18,0.21C26.1,4.91,25.58,5,25.05,5  c-1.439,0-2.37-0.24-3.35-0.49C20.71,4.26,19.68,4,18.21,4c-1.54,0-2.94,0.69-3.83,1.9l1.61,1.18C16.5,6.39,17.31,6,18.21,6  c1.22,0,2.08,0.22,3,0.45C22.22,6.71,23.36,7,25.05,7c0.32,0,0.63-0.02,0.95-0.06V17c0,3.44-2.62,7-7,7s-7-3.56-7-7V6.29  C12.23,5.59,13.61,2,18.21,2c1.61,0,2.76,0.28,3.88,0.55C23.06,2.78,23.98,3,25.05,3C26.12,3,27.19,2.74,28,2.47V0.34  C27.34,0.61,26.17,1,25.05,1c-0.83,0-1.6-0.18-2.49-0.4C21.38,0.32,20.05,0,18.21,0c-5.24,0-7.64,3.86-8.18,5.89L10,17  c0,2.8,1.45,5.74,3.98,7.47c-0.06,0.49-0.24,0.87-0.76,1.29c-0.5,0.4-1.32,0.84-2.64,1.45c-0.2,0.09-0.39,0.18-0.58,0.26  c-0.47,0.2-0.91,0.391-1.34,0.561c-3.32,1.37-5.73,2.359-6.65,8.83L1.85,38h34.3L35.99,36.86z M4.18,36c0.81-4.3,2.28-4.9,5.24-6.12  c0.62-0.25,1.29-0.53,2-0.86c1.09-0.5,2.01-0.949,2.73-1.479c0.8-0.56,1.36-1.22,1.64-2.12C16.76,25.78,17.83,26,19,26  s2.24-0.22,3.21-0.58c0.28,0.9,0.84,1.561,1.64,2.12c0.721,0.53,1.641,0.979,2.73,1.479c0.71,0.33,1.38,0.61,2,0.86  c2.96,1.22,4.43,1.83,5.24,6.12H4.18z">
+                                                    </path>
+                                                </svg>Profile Page
+                                            </a>
+                                            <a href="security.html"
+                                                class="list-group-item list-group-item-action border-0 ">
+                                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px"
+                                                    height="24px" viewBox="0 0 32 32" class="me-3">
+                                                    <path xmlns="http://www.w3.org/2000/svg"
+                                                        d="M15.5,27.482C5.677,24.8,4.625,10.371,4.513,7.497C11.326,7.402,14.5,5.443,15.5,4.661  c0.999,0.782,4.174,2.742,10.986,2.836C26.375,10.371,25.323,24.8,15.5,27.482z"
+                                                        style="fill:var(--primary-color);"
+                                                        data-st="fill:var(--chart-color4);"></path>
+                                                    <path xmlns="http://www.w3.org/2000/svg" class="st2"
+                                                        d="M14.13,21.5c-0.801,0-1.553-0.311-2.116-0.873c-0.57-0.57-0.883-1.327-0.881-2.132  c0.001-0.8,0.314-1.55,0.879-2.11c0.555-0.563,1.297-0.876,2.093-0.885c0.131-0.001,0.256-0.054,0.348-0.146l4.63-4.63  c0.388-0.38,0.879-0.583,1.416-0.583s1.028,0.203,1.42,0.587c0.373,0.373,0.58,0.875,0.58,1.413c0,0.531-0.207,1.03-0.584,1.406  l-4.64,4.641c-0.094,0.095-0.146,0.222-0.146,0.354c0,0.782-0.311,1.522-0.873,2.087C15.693,21.189,14.938,21.5,14.13,21.5z">
+                                                    </path>
+                                                    <path xmlns="http://www.w3.org/2000/svg" class="st0"
+                                                        d="M15.5,4c0,0-2.875,3-11.5,3c0,0,0,18,11.5,21C27,25,27,7,27,7C18.375,7,15.5,4,15.5,4z M15.5,26.984  C6.567,24.43,5.217,11.608,5.015,7.965C11.052,7.797,14.213,6.15,15.5,5.251c1.287,0.899,4.448,2.545,10.484,2.713  C25.782,11.608,24.434,24.43,15.5,26.984z M22.27,10.37c-0.479-0.47-1.1-0.73-1.77-0.73s-1.29,0.261-1.77,0.73L14.1,15  c-0.92,0.01-1.79,0.37-2.44,1.03c-1.37,1.358-1.37,3.579,0,4.95c0.66,0.66,1.54,1.02,2.47,1.02c0.94,0,1.82-0.359,2.479-1.02  c0.66-0.66,1.021-1.53,1.021-2.44l4.64-4.64C22.74,13.43,23,12.81,23,12.14C23,11.47,22.74,10.84,22.27,10.37z M21.561,13.2  l-4.949,4.95c0.1,0.75-0.13,1.539-0.71,2.119C15.41,20.76,14.77,21,14.13,21c-0.64,0-1.28-0.24-1.76-0.73  c-0.98-0.979-0.98-2.56,0-3.539c0.49-0.489,1.12-0.729,1.76-0.729c0.12,0,0.24,0.01,0.36,0.03l4.949-4.95  c0.291-0.3,0.681-0.44,1.061-0.44s0.77,0.141,1.061,0.44C22.15,11.66,22.15,12.61,21.561,13.2z M19.79,12.14l0.71,0.7l-5.02,5.021  c0.27,0.56,0.18,1.238-0.29,1.699c-0.58,0.59-1.53,0.59-2.12,0c-0.58-0.58-0.58-1.529,0-2.119c0.47-0.461,1.16-0.562,1.71-0.291  L19.79,12.14z M16,11H9v-1h7V11z M14,13H9v-1h5V13z">
+                                                    </path>
+                                                </svg>Security
+                                            </a>
+
+
+
+                                            <a href="./auth-signin.html"
+                                                class="list-group-item list-group-item-action border-0 ">
+                                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px"
+                                                    height="24px" viewBox="0 0 24 24" class="me-3">
+                                                    <rect xmlns="http://www.w3.org/2000/svg" class="st0" width="24"
+                                                        height="24" style="fill:none;;" fill="none"></rect>
+                                                    <path xmlns="http://www.w3.org/2000/svg"
+                                                        d="M20,4c0-1.104-0.896-2-2-2H6C4.896,2,4,2.896,4,4v16c0,1.104,0.896,2,2,2h12  c1.104,0,2-0.896,2-2V4z"
+                                                        style="fill:var(--primary-color);"
+                                                        data-st="fill:var(--chart-color4);"></path>
+                                                    <path xmlns="http://www.w3.org/2000/svg" class="st0"
+                                                        d="M15,6.81v2.56c0.62,0.7,1,1.62,1,2.63c0,2.21-1.79,4-4,4s-4-1.79-4-4c0-1.01,0.38-1.93,1-2.63V6.81  C7.21,7.84,6,9.78,6,12c0,3.31,2.69,6,6,6c3.31,0,6-2.69,6-6C18,9.78,16.79,7.84,15,6.81z M13,6.09C12.68,6.03,12.34,6,12,6  s-0.68,0.03-1,0.09V12h2V6.09z">
+                                                    </path>
+                                                </svg>Signout
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="setting ms-2">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#Settingmodal">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30px" height="30px"
+                                        viewBox="0 0 38 38">
+                                        <path
+                                            d="M19,28c-4.964,0-9-4.04-9-9c0-4.964,4.036-9,9-9c4.96,0,9,4.036,9,9  C28,23.96,23.96,28,19,28z M19,16c-1.654,0-3,1.346-3,3s1.346,3,3,3s3-1.346,3-3S20.654,16,19,16z"
+                                            style="fill:var(--primary-color);" data-st="fill:var(--chart-color4);">
+                                        </path>
+                                        <path class="st0"
+                                            d="M19,24c-2.757,0-5-2.243-5-5s2.243-5,5-5s5,2.243,5,5S21.757,24,19,24z M19,16c-1.654,0-3,1.346-3,3  s1.346,3,3,3s3-1.346,3-3S20.654,16,19,16z M32,19c0-1.408-0.232-2.763-0.648-4.034l3.737-1.548l-0.766-1.848l-3.743,1.551  c-1.25-2.452-3.251-4.452-5.702-5.701l1.551-3.744l-1.848-0.765l-1.548,3.737C21.762,6.232,20.409,6,19,6  c-1.409,0-2.756,0.248-4.026,0.668l-1.556-3.756L11.57,3.677l2.316,5.592C15.416,8.462,17.154,8,19,8c6.065,0,11,4.935,11,11  s-4.935,11-11,11S8,25.065,8,19c0-3.031,1.232-5.779,3.222-7.771L9.808,9.816c-0.962,0.963-1.764,2.082-2.388,3.306l-3.744-1.551  l-0.765,1.847l3.738,1.548C6.232,16.238,6,17.592,6,19c0,1.409,0.232,2.763,0.648,4.034l-3.737,1.548l0.766,1.848l3.744-1.551  c1.25,2.451,3.25,4.451,5.701,5.7l-1.551,3.744l1.848,0.766l1.548-3.737C16.237,31.768,17.591,32,19,32s2.762-0.232,4.033-0.648  l1.549,3.737l1.848-0.766l-1.552-3.743c2.451-1.25,4.451-3.25,5.701-5.701l3.744,1.551l0.765-1.848l-3.736-1.548  C31.768,21.763,32,20.409,32,19z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- menu toggler -->
+                        <button class="navbar-toggler p-0 border-0 menu-toggle order-3" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#mainHeader">
+                            <span class="fa fa-bars"></span>
+                        </button>
+
+                        <!-- main menu Search-->
+                        <div class="order-0 col-lg-4 col-md-4 col-sm-12 col-12 mb-3 mb-md-0 d-flex align-items-center">
+
+
+                        </div>
+
+                    </div>
+                </nav>
+
+                <!-- topmain menu -->
+                <div class="container-xxl position-relative">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card shadow menu slidedown position-absolute zindex-modal">
+                                <div class="card-body p-3">
+                                    <div class="row g-3">
+
+                                        <div class="col-lg-10">
+                                            <ul
+                                                class="menu-grid list-unstyled row row-cols-xl-3 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 g-4 mb-0 mt-lg-3">
+
+
+
+
+
+
+
+
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Body: Body -->
+            <div class="body d-flex py-lg-3 py-md-2">
+                <div class="container-xxl">
+
+                    <div class="row align-items-center">
+                        <div class="border-0 mb-4">
+                            <div
+                                class="card-header no-bg bg-transparent d-flex align-items-center px-0 justify-content-between border-bottom flex-wrap">
+                                <h3 class="fw-bold mb-0 py-3 pb-2">Invoices</h3>
+                                <div class="col-auto py-2 w-sm-100">
+                                    <ul class="nav nav-tabs tab-body-header rounded invoice-set" role="tablist">
+                                        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab"
+                                                href="#Invoice-list" role="tab">Invoice List</a></li>
+                                        <li class="nav-item"><a class="nav-link  active" data-bs-toggle="tab"
+                                                href="#Invoice-Simple" role="tab">Simple invoice</a></li>
+                                        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab"
+                                                href="#Invoice-Email" role="tab">Email invoice</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- Row end  -->
+
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="tab-content">
+                                <div class="tab-pane fade" id="Invoice-list">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8 col-md-12">
+                                            <div class="card mb-3">
+                                                <div class="card-body d-sm-flex justify-content-between">
+                                                    <a href="javascript:void(0);" class="d-flex">
+                                                        <img class="avatar rounded" src="assets/images/xs/avatar1.svg"
+                                                            alt="">
+                                                        <div class="flex-fill ms-3 text-truncate">
+                                                            <h6 class="d-flex justify-content-between mb-0"><span>Ryan
+                                                                    MacLeod</span></h6>
+                                                            <span class="text-muted">Ke Arrow Silicon</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="text-end d-none d-md-block">
+                                                        <p class="mb-1"><i class="icofont-location-pin ps-1"></i> 2211
+                                                            Jones Avenue,Winston Salem FL 27107</p>
+                                                        <span class="text-muted"><i class="icofont-money ps-1"></i>
+                                                            $500</span>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="card-footer justify-content-between d-flex align-items-center">
+                                                    <div class="d-none d-md-block">
+                                                        <strong>Date on:</strong>
+                                                        <span>23 Feb, 2021</span>
+                                                    </div>
+                                                    <div class="card-hover-show">
+                                                        <a class="btn btn-sm btn-white border lift"
+                                                            href="#">Download</a>
+                                                        <a class="btn btn-sm btn-white border lift" href="#">Send</a>
+                                                        <a class="btn btn-sm btn-white border lift" href="#">Delete</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card mb-3">
+                                                <div class="card-body d-sm-flex justify-content-between">
+                                                    <a href="javascript:void(0);" class="d-flex">
+                                                        <img class="avatar rounded" src="assets/images/xs/avatar2.svg"
+                                                            alt="">
+                                                        <div class="flex-fill ms-3 text-truncate">
+                                                            <h6 class="d-flex justify-content-between mb-0">
+                                                                <span>Penelope Stewart</span>
+                                                            </h6>
+                                                            <span class="text-muted">Kronos Minimalist</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="text-end d-none d-md-block">
+                                                        <p class="mb-1"><i class="icofont-location-pin ps-1"></i> 3154
+                                                            Sampson Street,Aurora CT 80014</p>
+                                                        <span class="text-muted"><i class="icofont-money ps-1"></i>
+                                                            $433</span>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="card-footer justify-content-between d-flex align-items-center">
+                                                    <div class="d-none d-md-block">
+                                                        <strong>Date on:</strong>
+                                                        <span>14 Apr, 2021</span>
+                                                    </div>
+                                                    <div class="card-hover-show">
+                                                        <a class="btn btn-sm btn-white border lift"
+                                                            href="#">Download</a>
+                                                        <a class="btn btn-sm btn-white border lift" href="#">Send</a>
+                                                        <a class="btn btn-sm btn-white border lift" href="#">Delete</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card mb-3">
+                                                <div class="card-body d-sm-flex justify-content-between">
+                                                    <a href="javascript:void(0);" class="d-flex">
+                                                        <img class="avatar rounded" src="assets/images/xs/avatar3.svg"
+                                                            alt="">
+                                                        <div class="flex-fill ms-3 text-truncate">
+                                                            <h6 class="d-flex justify-content-between mb-0"><span>Diane
+                                                                    Slater</span></h6>
+                                                            <span class="text-muted">Mechanical Watch</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="text-end d-none d-md-block">
+                                                        <p class="mb-1"><i class="icofont-location-pin ps-1"></i> 49
+                                                            Stamford Road. West Chicago, IL 60185</p>
+                                                        <span class="text-muted"><i class="icofont-money ps-1"></i>
+                                                            $255</span>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="card-footer justify-content-between d-flex align-items-center">
+                                                    <div class="d-none d-md-block">
+                                                        <strong>Date on:</strong>
+                                                        <span>16 Mar, 2021</span>
+                                                    </div>
+                                                    <div class="card-hover-show">
+                                                        <a class="btn btn-sm btn-white border lift"
+                                                            href="#">Download</a>
+                                                        <a class="btn btn-sm btn-white border lift" href="#">Send</a>
+                                                        <a class="btn btn-sm btn-white border lift" href="#">Delete</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card mb-3">
+                                                <div class="card-body d-sm-flex justify-content-between">
+                                                    <a href="javascript:void(0);" class="d-flex">
+                                                        <img class="avatar rounded" src="assets/images/xs/avatar4.svg"
+                                                            alt="">
+                                                        <div class="flex-fill ms-3 text-truncate">
+                                                            <h6 class="d-flex justify-content-between mb-0"><span>Amy
+                                                                    Mills</span></h6>
+                                                            <span class="text-muted">Engraved Black Alloy</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="text-end d-none d-md-block">
+                                                        <p class="mb-1"><i class="icofont-location-pin ps-1"></i> 2698
+                                                            Northumberland. Melbourne, FL 32904</p>
+                                                        <span class="text-muted"><i class="icofont-money ps-1"></i>
+                                                            $555</span>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="card-footer justify-content-between d-flex align-items-center">
+                                                    <div class="d-none d-md-block">
+                                                        <strong>Date on:</strong>
+                                                        <span>17 Mar, 2021</span>
+                                                    </div>
+                                                    <div class="card-hover-show">
+                                                        <a class="btn btn-sm btn-white border lift"
+                                                            href="#">Download</a>
+                                                        <a class="btn btn-sm btn-white border lift" href="#">Send</a>
+                                                        <a class="btn btn-sm btn-white border lift" href="#">Delete</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card mb-3">
+                                                <div class="card-body d-sm-flex justify-content-between">
+                                                    <a href="javascript:void(0);" class="d-flex">
+                                                        <img class="avatar rounded" src="assets/images/xs/avatar5.svg"
+                                                            alt="">
+                                                        <div class="flex-fill ms-3 text-truncate">
+                                                            <h6 class="d-flex justify-content-between mb-0"><span>Tim
+                                                                    Mitchell</span></h6>
+                                                            <span class="text-muted">Titan Workwear</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="text-end d-none d-md-block">
+                                                        <p class="mb-1"><i class="icofont-location-pin ps-1"></i> 35
+                                                            Gubener Str. Emmering, FL 32904</p>
+                                                        <span class="text-muted"><i class="icofont-money ps-1"></i>
+                                                            $288</span>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="card-footer justify-content-between d-flex align-items-center">
+                                                    <div class="d-none d-md-block">
+                                                        <strong>Date on:</strong>
+                                                        <span>12 Feb, 2021</span>
+                                                    </div>
+                                                    <div class="card-hover-show">
+                                                        <a class="btn btn-sm btn-white border lift"
+                                                            href="#">Download</a>
+                                                        <a class="btn btn-sm btn-white border lift" href="#">Send</a>
+                                                        <a class="btn btn-sm btn-white border lift" href="#">Delete</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card mb-3">
+                                                <div class="card-body d-sm-flex justify-content-between">
+                                                    <a href="javascript:void(0);" class="d-flex">
+                                                        <img class="avatar rounded" src="assets/images/xs/avatar2.svg"
+                                                            alt="">
+                                                        <div class="flex-fill ms-3 text-truncate">
+                                                            <h6 class="d-flex justify-content-between mb-0"><span>Brian
+                                                                    Swader</span></h6>
+                                                            <span class="text-muted">NoiseFit Endure</span>
+                                                        </div>
+                                                    </a>
+                                                    <div class="text-end d-none d-md-block">
+                                                        <p class="mb-1"><i class="icofont-location-pin ps-1"></i> 70
+                                                            Bowman St. South Windsor, CT 06074</p>
+                                                        <span class="text-muted"><i class="icofont-money ps-1"></i>
+                                                            $655</span>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="card-footer justify-content-between d-flex align-items-center">
+                                                    <div class="d-none d-md-block">
+                                                        <strong>Date on:</strong>
+                                                        <span>18 Feb, 2020</span>
+                                                    </div>
+                                                    <div class="card-hover-show">
+                                                        <a class="btn btn-sm btn-white border lift"
+                                                            href="#">Download</a>
+                                                        <a class="btn btn-sm btn-white border lift" href="#">Send</a>
+                                                        <a class="btn btn-sm btn-white border lift" href="#">Delete</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <nav aria-label="Page navigation">
+                                                <ul class="pagination mt-4">
+                                                    <li class="page-item"><a class="page-link" href="#">Previous</a>
+                                                    </li>
+                                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div> <!-- Row end  -->
+                                </div> <!-- tab end  -->
+                                <div class="tab-pane fade show active" id="Invoice-Simple">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8 col-md-12">
+                                            <div class="card p-xl-5 p-lg-4 p-0">
+                                                <div class="card-body">
+                                                    <div class="mb-3 pb-3 border-bottom">
+                                                        Invoice
+                                                        <strong>25/Oct/2021</strong>
+                                                    </div>
+
+                                                    <div class="row mb-4">
+                                                        <div class="col-sm-6">
+                                                            <h6 class="mb-3">From:</h6>
+                                                            <div><strong>Cryptoon</strong></div>
+                                                            <div>111 Berkeley Rd</div>
+                                                            <div>STREET ON THE FOSSE, Poland</div>
+                                                            <div>Email: info@cryptoon.com</div>
+                                                            <div>Phone: +44 888 666 3333</div>
+                                                        </div>
+
+                                                        <div class="col-sm-6">
+                                                            <h6 class="mb-3">To:</h6>
+                                                            <div><strong>Angel Broking</strong></div>
+                                                            <div>45 Larissa Court</div>
+                                                            <div>Victoria, BIRDWOODTON</div>
+                                                            <div>Email: angelbroking@gmail.com</div>
+                                                            <div>Phone: +66 243 456 789</div>
+                                                        </div>
+                                                    </div> <!-- Row end  -->
+
+                                                    <div class="table-responsive-sm">
+                                                        <table class="table table-striped">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th class="text-center">#</th>
+                                                                    <th>Item</th>
+                                                                    <th>Description</th>
+                                                                    <th class="text-end">Item Cost</th>
+                                                                    <th class="text-center">Products Item</th>
+                                                                    <th class="text-end">Total</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="text-center">1</td>
+                                                                    <td>Sol Coin</td>
+                                                                    <td>Buy Sol in Spot</td>
+                                                                    <td class="text-end">$145</td>
+                                                                    <td class="text-center">40</td>
+                                                                    <td class="text-end">$5800.00</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-center">2</td>
+                                                                    <td>AE Cardano </td>
+                                                                    <td>AE Cardano Fill</td>
+                                                                    <td class="text-end">$500,00</td>
+                                                                    <td class="text-center">2</td>
+                                                                    <td class="text-end">$1000,00</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <div class="col-lg-4 col-sm-5">
+
+                                                        </div>
+
+                                                        <div class="col-lg-4 col-sm-5 ms-auto">
+                                                            <table class="table table-clear">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td><strong>Subtotal</strong></td>
+                                                                        <td class="text-end">$6800.00</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><strong>VAT (02%)</strong></td>
+                                                                        <td class="text-end">$34.000</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><strong>Total</strong></td>
+                                                                        <td class="text-end"><strong>$10200.00</strong>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div> <!-- Row end  -->
+
+                                                    <div class="row">
+                                                        <div class="col-lg-12">
+                                                            <h6>Terms &amp; Condition</h6>
+                                                            <p class="text-muted">Contrary to popular belief, Lorem
+                                                                Ipsum is not simply random text. It has roots in a piece
+                                                                of classical Latin literature from 45 BC, making it over
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-lg-12 text-end">
+                                                            <button type="button"
+                                                                class="btn btn-outline-secondary btn-lg my-1"><i
+                                                                    class="fa fa-print"></i> Print</button>
+                                                            <button type="button" class="btn btn-primary btn-lg my-1"><i
+                                                                    class="fa fa-paper-plane-o"></i> Send
+                                                                Invoice</button>
+                                                        </div>
+                                                    </div> <!-- Row end  -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- Row end  -->
+                                </div> <!-- tab end  -->
+                                <div class="tab-pane fade" id="Invoice-Email">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8 col-md-12">
+                                            <div class="d-flex justify-content-center">
+                                                <table class="card p-5">
+                                                    <tr>
+                                                        <td></td>
+                                                        <td class="text-center">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="text-center">
+                                                                        <h2>$600.00 Paid</h2>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-center py-2">
+                                                                        <h4 class="mb-0">Thanks for using Cryptoon.</h4>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="pt-2 pb-4">
+                                                                        <table>
+                                                                            <tr>
+                                                                                <td>
+                                                                                    Attn: <strong>angel broking</strong>
+                                                                                    Winston Salem FL 27107<br>
+                                                                                    Email: angelbroking@gmail.com<br>
+                                                                                    Phone: +88 123 456 789<br>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="pt-2">
+                                                                                    <table class="table table-bordered">
+                                                                                        <tr>
+                                                                                            <td class="text-start">AE
+                                                                                                IDO</td>
+                                                                                            <td class="text-end">$200.00
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td class="text-start">BLOCK
+                                                                                                IDO</td>
+                                                                                            <td class="text-end">$200.00
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td class="text-start">BTM
+                                                                                                IDO</td>
+                                                                                            <td class="text-end">$200.00
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td class="text-start w-80">
+                                                                                                <strong>Total</strong>
+                                                                                            </td>
+                                                                                            <td
+                                                                                                class="text-end fw-bold">
+                                                                                                $ 600.00</td>
+                                                                                        </tr>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="pt-2 pb-2 text-center">
+                                                                        <a href="#">View in browser</a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="p-0 text-center">
+                                                                        PXL Inc. 47 Aurora St. South West, CT 06074
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <table class="mt-3 text-center w-100">
+                                                                <tr>
+                                                                    <td class="aligncenter content-block">Questions?
+                                                                        Email <a
+                                                                            href="mailto:info@in.com">info@in.com</a>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div> <!-- Row end  -->
+                                </div> <!-- tab end  -->
+                            </div>
+                        </div>
+
+                    </div> <!-- Row end  -->
+                </div>
+            </div>
+
+            <!-- Modal Custom Settings-->
+            <div class="modal fade right" id="Settingmodal" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog  modal-sm">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Custome Settings</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body custom_setting">
+                            <!-- Settings: Color -->
+
+                            <!-- Settings: Template dynamics -->
+
+                            <!-- Settings: Font -->
+
+                            <!-- Settings: Light/dark -->
+                            <div class="setting-mode py-3">
+                                <h6 class="card-title mb-2 fs-6 d-flex align-items-center"><i
+                                        class="icofont-layout fs-4 me-2 text-primary"></i>Contrast Layout</h6>
+                                <ul class="list-group list-unstyled mb-0 mt-1">
+                                    <li class="list-group-item d-flex align-items-center py-1 px-2">
+                                        <div class="form-check form-switch theme-switch mb-0">
+                                            <input class="form-check-input" type="checkbox" id="theme-switch">
+                                            <label class="form-check-label" for="theme-switch">Enable Dark Mode!</label>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item d-flex align-items-center py-1 px-2">
+                                        <div class="form-check form-switch theme-high-contrast mb-0">
+                                            <input class="form-check-input" type="checkbox" id="theme-high-contrast">
+                                            <label class="form-check-label" for="theme-high-contrast">Enable High
+                                                Contrast</label>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Jquery Core Js -->
+    <script src="assets/bundles/libscripts.bundle.js"></script>
+
+    <!-- Jquery Page Js -->
+    <script src="./assets/js/template.js"></script>
+</body>
+
+<!-- invoices.html , Mon, 05 May 2025 10:40:13 GMT -->
+
+</html>
