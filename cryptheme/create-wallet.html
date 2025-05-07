@@ -145,7 +145,7 @@
 
                         </ul>
                     </li>
-                    
+
                     <li class="collapsed">
                         <a class="m-link" data-bs-toggle="collapse" data-bs-target="#mwallet" href="#">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30px" height="30px"
@@ -477,14 +477,49 @@
             <!-- Body: Body -->
             <div class="body d-flex py-lg-3 py-md-2">
                 <div class="container-xxl">
-                    <div class="col-12">
-                        <div class="card mb-3">
-                            <div class="card-body text-center p-5">
+                    <div class="row g-3 mb-3">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row g-3 align-items-center">
+                                        <div class="col-md-6 col-lg-6 col-xl-3">
+                                            <div class="d-flex">
+                                                <img class="avatar rounded-circle" src="assets/images/profile_av.svg" alt="profile">
+                                                <div class="flex-fill ms-3">
+                                                    <p class="mb-0"><span class="font-weight-bold">User </span></p>
+                                                    <small class="">User@gmail.com</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-6 col-xl-3">
+                                            <div class="d-flex flex-column">
+                                                <span class="text-muted mb-1">User ID:164647708</span>
+                                                <span class="small text-muted flex-fill text-truncate">Last login time 2025-05-05 10:56:22</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-6 col-xl-2">
+                                            <div class="d-flex-inline">
+                                                <span class="badge bg-careys-pink mb-1">Personal</span>
+                                                <span class="small text-muted d-flex align-items-center">
+                                                    <i class="icofont-diamond px-1 fs-5 color-lightyellow "></i> VIP
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- Row End -->
+                    
+                    <div class="row">
+                        <!-- Right Column - Create New Wallet -->
+                        <div class="col-xl-8 col-lg-7 col-md-12">
+                            <div class="card-body text-center flex-column mb-3">
                                 <!-- Step 1: Email Verification -->
-                                <div id="email-verification-card" class="card p-4 shadow" style="max-width: 500px; margin: 0 auto;">
+                                <div id="email-verification-card" class="card p-4 shadow">
                                     <div class="card-body">
                                         <h5 class="card-title text-center mb-4">Create New Wallet</h5>
-                                        
+            
                                         <div id="email-step">
                                             <div class="mb-3">
                                                 <label for="email" class="form-label">Your Email</label>
@@ -507,10 +542,10 @@
                                 </div>
             
                                 <!-- Step 2: Security Information (Hidden Initially) -->
-                                <div id="security-info-card" class="card p-4 shadow d-none" style="max-width: 600px; margin: 20px auto 0;">
+                                <div id="security-info-card" class="card p-4 shadow d-none" >
                                     <div class="card-body">
                                         <h5 class="card-title text-center mb-4">Step 3: Wallet Security</h5>
-                                        
+            
                                         <div class="alert alert-danger mb-4">
                                             <h6 class="alert-heading">Recovery Phrase (Confidential!)</h6>
                                             <div id="recovery-phrase" class="p-3 bg-light rounded text-center fw-bold my-3" style="font-size: 1.1rem;"></div>
@@ -545,10 +580,85 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- Left Column - Profile and Notification -->
+                        <div class="col-xl-4 col-lg-5 col-md-12">
+                            <div class="card profile-card flex-column mb-3">
+                                <div class="card-header py-3 d-flex justify-content-between bg-transparent border-bottom-0">
+                                    <h6 class="mb-0 fw-bold">Profile</h6>
+                                </div>
+                                <div class="card-body d-flex profile-fulldeatil flex-column">
+                                    <div class="profile-user text-center w220 mx-auto">
+                                        <a href="#">
+                                            <img src="assets/images/lg/avatar4.svg" alt="" class="avatar xl rounded img-thumbnail shadow-sm">
+                                        </a>
+                                        <button class="btn btn-primary" style="position: absolute;top:15px;right: 15px;" data-bs-toggle="modal" data-bs-target="#editprofile">
+                                            <i class="icofont-edit"></i>
+                                        </button>
+                                        <div class="about-info d-flex align-items-center mt-3 justify-content-center flex-column">
+                                            <span class="text-muted small">User ID : PXL-0001</span>
+                                        </div>
+                                    </div>
+                                    <div class="profile-info w-100">
+                                        <h6 class="mb-0 mt-2 fw-bold d-block fs-6 text-center">User</h6>
+                                        <span class="py-1 fw-bold small-11 mb-0 mt-1 text-muted text-center mx-auto d-block">UK</span>
+                                        <p class="mt-2">Experience the next level of secure key exchange with our professional portal — blazing speed, unmatched security, effortless usability, and total peace of mind.</p>
+                                        <div class="row g-2 pt-2">
+                                            <div class="col-xl-12">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="icofont-ui-touch-phone"></i>
+                                                    <span class="ms-2">000-000-0000 </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-12">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="icofont-email"></i>
+                                                    <span class="ms-2">user@gmail.com</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-12">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="icofont-birthday-cake"></i>
+                                                    <span class="ms-2">19/03/1989</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-12">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="icofont-address-book"></i>
+                                                    <span class="ms-2">2734 West</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5>Notification preferences</h5>
+                                    <span class="text-muted">Control all our newsletter and email related notifications to your email</span>
+                                    <div class="mt-4">
+                                        <div class="form-check form-switch mt-2">
+                                            <input class="form-check-input" type="checkbox" id="np-Newsletter">
+                                            <label class="form-check-label" for="np-Newsletter">Activity Notifications</label>
+                                        </div>
+                                        <div class="form-check form-switch mt-2">
+                                            <input class="form-check-input" type="checkbox" id="np-Notifications">
+                                            <label class="form-check-label" for="np-Notifications">Comment Notifications</label>
+                                        </div>
+                                        <div class="form-check form-switch mt-2">
+                                            <input class="form-check-input" type="checkbox" id="np-Preferences" checked="">
+                                            <label class="form-check-label" for="np-Preferences">Email Preferences</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
                     </div>
                 </div>
             </div>
-            
+
         </div>
 
     </div>
@@ -558,8 +668,31 @@
 
     <!-- Jquery Page Js -->
     <script src="assets/js/template.js"></script>
+
+
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        .card {
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        #recovery-phrase {
+            word-spacing: 5px;
+            line-height: 2;
+        }
+    </style>
+
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             const emailStep = document.getElementById('email-step');
             const verifyStep = document.getElementById('verify-step');
             const sendCodeBtn = document.getElementById('send-code-btn');
@@ -568,69 +701,69 @@
             const displayEmail = document.getElementById('display-email');
             const emailCard = document.getElementById('email-verification-card');
             const securityCard = document.getElementById('security-info-card');
-        
-            sendCodeBtn.addEventListener('click', function() {
+
+            sendCodeBtn.addEventListener('click', function () {
                 const email = emailInput.value.trim();
-                
+
                 if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
                     alert('Please enter a valid email!');
                     return;
                 }
-        
+
                 console.log(`Verification code sent to ${email} (Code: 123456)`);
                 displayEmail.textContent = email;
                 emailStep.classList.add('d-none');
                 verifyStep.classList.remove('d-none');
             });
-        
-            verifyBtn.addEventListener('click', function() {
+
+            verifyBtn.addEventListener('click', function () {
                 const code = document.getElementById('verification-code').value.trim();
-                
+
                 if (code !== '123456') {
                     alert('Invalid verification code!');
                     return;
                 }
-        
+
                 emailCard.classList.add('d-none');
                 securityCard.classList.remove('d-none');
                 generateWalletInfo();
             });
-        
+
             function generateWalletInfo() {
                 const recoveryPhrase = generateRandomPhrase();
                 document.getElementById('recovery-phrase').textContent = recoveryPhrase;
-        
+
                 const walletAddress = generateWalletAddress();
                 document.getElementById('wallet-address').textContent = walletAddress;
-        
+
                 new QRCode(document.getElementById('qr-code'), {
                     text: walletAddress,
                     width: 150,
                     height: 150
                 });
-        
-                document.getElementById('copy-address').addEventListener('click', function() {
+
+                document.getElementById('copy-address').addEventListener('click', function () {
                     navigator.clipboard.writeText(walletAddress);
                     alert('Address copied!');
                 });
-        
-                document.getElementById('confirm-save').addEventListener('change', function() {
+
+                document.getElementById('confirm-save').addEventListener('change', function () {
                     document.getElementById('continue-btn').disabled = !this.checked;
                 });
-        
-                document.getElementById('continue-btn').addEventListener('click', function() {
+
+                document.getElementById('continue-btn').addEventListener('click', function () {
                     window.location.href = 'wallet.html';
                 });
             }
-        
+
             function generateRandomPhrase() {
                 const words = [
-                    'vault', 'clever', 'oxygen', 'twist', 'humble', 'ridge', 
+                    'vault', 'clever', 'oxygen', 'twist', 'humble', 'ridge',
                     'alert', 'script', 'tomato', 'palm', 'dash', 'enact'
                 ];
                 return words.sort(() => 0.5 - Math.random()).join(' ');
             }
-        
+
             function generateWalletAddress() {
                 const chars = '0123456789abcdef';
                 let address = '0x';
@@ -640,7 +773,7 @@
                 return address;
             }
         });
-        </script>
+    </script>
 </body>
 
 <!-- /stater-page.html , Mon, 05 May 2025 10:40:14 GMT -->

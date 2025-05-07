@@ -504,102 +504,111 @@
                     <div class="row g-3 mb-3 row-deck">
                         <div class="col-xl-12 col-xxl-7">
                             <div class="card">
-                                <div class="card-header py-3 d-flex justify-content-between bg-transparent border-bottom align-items-center flex-wrap">
+                                <div
+                                    class="card-header py-3 d-flex justify-content-between bg-transparent border-bottom align-items-center flex-wrap">
                                     <h6 class="mb-0 fw-bold">Balance Details</h6>
                                     <ul class="nav nav-tabs tab-body-header rounded d-inline-flex" role="tablist">
-                                        <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#Spot" role="tab">Spot</a></li>
-                                        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#P2P" role="tab">P2P</a></li>
-                                        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#Margin" role="tab">Margin</a></li>
-                                        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#Future" role="tab">Future</a></li>
-                                        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#Earn" role="tab">Earn</a></li>
+                                        <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab"
+                                                href="#Spot" role="tab">Spot</a></li>
+                                        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#P2P"
+                                                role="tab">P2P</a></li>
+                                        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#Margin"
+                                                role="tab">Margin</a></li>
+                                        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#Future"
+                                                role="tab">Future</a></li>
+                                        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#Earn"
+                                                role="tab">Earn</a></li>
                                     </ul>
                                 </div>
                                 <div class="card-body">
                                     <div class="tab-content">
-                                        <!-- Spot Tab -->
                                         <div class="tab-pane fade show active" id="Spot">
                                             <div class="row g-3">
                                                 <div class="col-lg-6">
                                                     <div>Account balance:</div>
-                                                    <h3 id="spot-balance">0 BTC</h3>
-                                                    <div class="mt-3 pt-3 text-uppercase text-muted pt-2 small">Buy this month</div>
-                                                    <h5 id="spot-buy">0 BTC</h5>
-                                                    <div class="mt-3 text-uppercase text-muted small">Sell this month</div>
-                                                    <h5 id="spot-sell">0 BTC</h5>
-                                                    <div class="mt-3 text-uppercase text-muted small">Estimated Value:</div>
-                                                    <h5 id="spot-value">$0</h5>
+                                                    <h3>0.18005388 BTC</h3>
+                                                    <div class="mt-3 pt-3 text-uppercase text-muted pt-2 small">Buy this
+                                                        month</div>
+                                                    <h5>3.0675432 BTC</h5>
+                                                    <div class="mt-3 text-uppercase text-muted small">Sell this month
+                                                    </div>
+                                                    <h5>2.0345618 BTC</h5>
+                                                    <div class="mt-3 text-uppercase text-muted small">Estimated Value:
+                                                    </div>
+                                                    <h5>$22000.29</h5>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div id="apex-simple-donut"></div>
                                                 </div>
                                             </div>
                                         </div>
-                                        
-                                        <!-- P2P Tab -->
                                         <div class="tab-pane fade" id="P2P">
                                             <div class="row g-3">
                                                 <div class="col-lg-6">
                                                     <div>Account balance:</div>
-                                                    <h3 id="p2p-balance">0 BTC</h3>
-                                                    <div class="mt-3 pt-3 text-uppercase text-muted pt-2 small">Buy this month</div>
-                                                    <h5 id="p2p-buy">0 BTC</h5>
-                                                    <div class="mt-3 text-uppercase text-muted small">Sell this month</div>
-                                                    <h5 id="p2p-sell">0 BTC</h5>
-                                                    <div class="mt-3 text-uppercase text-muted small">Estimated Value:</div>
-                                                    <h5 id="p2p-value">$0</h5>
+                                                    <h3>0.00005388 BTC</h3>
+                                                    <div class="mt-3 pt-3 text-uppercase text-muted pt-2 small">Buy this
+                                                        month</div>
+                                                    <h5>0.00005388 BTC</h5>
+                                                    <div class="mt-3 text-uppercase text-muted small">Sell this month
+                                                    </div>
+                                                    <h5>2.0345618 BTC</h5>
+                                                    <div class="mt-3 text-uppercase text-muted small">Estimated Value:
+                                                    </div>
+                                                    <h5>$2000.29</h5>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div id="apex-simple-donutp2p"></div>
                                                 </div>
                                             </div>
                                         </div>
-                                        
-                                        <!-- Margin Tab -->
                                         <div class="tab-pane fade" id="Margin">
                                             <div class="row g-3">
                                                 <div class="col-lg-6">
                                                     <div>Total balance:</div>
-                                                    <h3 id="margin-balance">0 BTC≈$0</h3>
-                                                    <div class="mt-3 pt-3 text-uppercase text-muted pt-2 small">Total Debt:</div>
-                                                    <h5 id="margin-debt">0 BTC</h5>
-                                                    <div class="mt-3 text-uppercase text-muted small">Account Equity:</div>
-                                                    <h5 id="margin-equity">0 BTC</h5>
-                                                    <div class="mt-3 text-uppercase text-muted small">Profit & Loss:</div>
-                                                    <h5 id="margin-profit">0 BTC(0%) $0 (0%)</h5>
+                                                    <h3>0.00095000 BTC≈$3570</h3>
+                                                    <div class="mt-3 pt-3 text-uppercase text-muted pt-2 small">Total
+                                                        Debt:</div>
+                                                    <h5>0.00005388 BTC</h5>
+                                                    <div class="mt-3 text-uppercase text-muted small">Account Equity:
+                                                    </div>
+                                                    <h5>2.0345618 BTC</h5>
+                                                    <div class="mt-3 text-uppercase text-muted small">Profit & Loss:
+                                                    </div>
+                                                    <h5>0.95 BTC(1.6.00%) $25 (8.00%)</h5>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div id="apex-circle-chart-multiplemargin"></div>
                                                 </div>
                                             </div>
                                         </div>
-                                        
-                                        <!-- Future Tab -->
                                         <div class="tab-pane fade" id="Future">
                                             <div class="row g-3">
                                                 <div class="col-lg-6">
                                                     <div>Total Margin Balance:</div>
-                                                    <h3 id="future-balance">0 BTC≈$0</h3>
-                                                    <div class="mt-3 pt-3 text-uppercase text-muted pt-2 small">Total Wallet Balance:</div>
-                                                    <h5 id="future-wallet">0 BTC</h5>
-                                                    <div class="mt-3 text-uppercase text-muted small">Total Unrealized PNL:</div>
-                                                    <h5 id="future-pnl">0 BTC</h5>
+                                                    <h3>0.00095000 BTC≈$3570</h3>
+                                                    <div class="mt-3 pt-3 text-uppercase text-muted pt-2 small">Total
+                                                        Wallet Balance:</div>
+                                                    <h5>0.00005388 BTC</h5>
+                                                    <div class="mt-3 text-uppercase text-muted small">Total Unrealized
+                                                        PNL:</div>
+                                                    <h5>2.0345618 BTC</h5>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div id="apex-circle-gradientfuture"></div>
                                                 </div>
                                             </div>
                                         </div>
-                                        
-                                        <!-- Earn Tab -->
                                         <div class="tab-pane fade" id="Earn">
                                             <div class="row g-3">
                                                 <div class="col-lg-6">
                                                     <div>Total Margin Balance:</div>
-                                                    <h3 id="earn-balance">0 BTC≈$0</h3>
-                                                    <div class="mt-3 pt-3 text-uppercase text-muted pt-2 small">Locked:</div>
-                                                    <h5 id="earn-locked">0 BTC</h5>
+                                                    <h3>0.00095000 BTC≈$3570</h3>
+                                                    <div class="mt-3 pt-3 text-uppercase text-muted pt-2 small">Locked:
+                                                    </div>
+                                                    <h5>0.00000388 BTC</h5>
                                                     <div class="mt-3 text-uppercase text-muted small">Flexible:</div>
-                                                    <h5 id="earn-flexible">0 BTC</h5>
+                                                    <h5>0.0000018 BTC</h5>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div id="apex-circle-chartearn"></div>
@@ -609,277 +618,74 @@
                                     </div>
                                 </div>
                             </div>
-                            <script>
-                                // Global wallet data
-                                let walletData = {};
-                                
-                                // Minimum withdrawal amounts
-                                const minWithdrawals = {
-                                    BTC: 0.0000086,
-                                    ETH: 0.0001,
-                                    USDT: 10
-                                };
-                                
-                                // Load wallet data from JSON file
-                                async function loadWalletData() {
-                                    try {
-                                        const response = await fetch('wallet-data.json');
-                                        if (!response.ok) throw new Error('Failed to load wallet data');
-                                        walletData = await response.json();
-                                        updateUI();
-                                    } catch (error) {
-                                        console.error('Error loading wallet data:', error);
-                                        // Initialize with default data if file doesn't exist
-                                        walletData = {
-                                            spot: {
-                                                BTC: 0,
-                                                ETH: 0,
-                                                USDT: 0
-                                            },
-                                            transactions: []
-                                        };
-                                        updateUI();
-                                    }
-                                }
-                                
-                                // Update UI with current balances
-                                function updateUI() {
-                                    const selectedCoin = document.getElementById('selected-coin').textContent;
-                                    document.getElementById('current-balance').textContent = 
-                                        `${walletData.spot[selectedCoin] || 0} ${selectedCoin}`;
-                                    document.getElementById('min-withdrawal').textContent = 
-                                        `${minWithdrawals[selectedCoin]} ${selectedCoin}`;
-                                }
-                                
-                                // Save wallet data to JSON file
-                                async function saveWalletData() {
-                                    try {
-                                        const response = await fetch('save-wallet.php', {
-                                            method: 'POST',
-                                            headers: {
-                                                'Content-Type': 'application/json',
-                                            },
-                                            body: JSON.stringify(walletData)
-                                        });
-                                        if (!response.ok) throw new Error('Failed to save wallet data');
-                                    } catch (error) {
-                                        console.error('Error saving wallet data:', error);
-                                    }
-                                }
-                                
-                                // Handle form submission
-                                document.getElementById('withdraw-form').addEventListener('submit', async function(e) {
-                                    e.preventDefault();
-                                    
-                                    const selectedCoin = document.getElementById('selected-coin').textContent;
-                                    const amount = parseFloat(document.getElementById('withdraw-amount').value);
-                                    const address = document.getElementById('withdraw-address').value;
-                                    const network = document.getElementById('withdraw-network').value;
-                                    
-                                    // Validate inputs
-                                    if (!amount || amount <= 0) {
-                                        alert('Please enter a valid amount');
-                                        return;
-                                    }
-                                    
-                                    if (!address) {
-                                        alert('Please enter a withdrawal address');
-                                        return;
-                                    }
-                                    
-                                    if (amount < minWithdrawals[selectedCoin]) {
-                                        alert(`Minimum withdrawal amount is ${minWithdrawals[selectedCoin]} ${selectedCoin}`);
-                                        return;
-                                    }
-                                    
-                                    if (!walletData.spot[selectedCoin] || walletData.spot[selectedCoin] < amount) {
-                                        alert('Insufficient balance');
-                                        return;
-                                    }
-                                    
-                                    // Process withdrawal
-                                    walletData.spot[selectedCoin] -= amount;
-                                    
-                                    // Add transaction record
-                                    walletData.transactions.push({
-                                        date: new Date().toISOString(),
-                                        type: 'withdrawal',
-                                        coin: selectedCoin,
-                                        amount: amount,
-                                        address: address,
-                                        network: network,
-                                        status: 'completed'
-                                    });
-                                    
-                                    // Update UI and save data
-                                    updateUI();
-                                    await saveWalletData();
-                                    
-                                    // Reset form and show success message
-                                    document.getElementById('withdraw-amount').value = '';
-                                    document.getElementById('withdraw-address').value = '';
-                                    alert(`Successfully withdrew ${amount} ${selectedCoin} to ${address}`);
-                                });
-                                
-                                // Handle coin selection
-                                document.querySelectorAll('#coin-dropdown .dropdown-item').forEach(item => {
-                                    item.addEventListener('click', function(e) {
-                                        e.preventDefault();
-                                        const coin = this.getAttribute('data-coin');
-                                        document.getElementById('selected-coin').textContent = coin;
-                                        document.getElementById('balance-label').textContent = `${coin} spot balance`;
-                                        updateUI();
-                                    });
-                                });
-                                
-                                // Initialize when page loads
-                                document.addEventListener('DOMContentLoaded', loadWalletData);
-                                </script>
-                            <script>
-                            // Function to load data from JSON file
-                            async function loadWalletData() {
-                                try {
-                                    const response = await fetch('./wallet-data.json');
-                                    if (!response.ok) {
-                                        throw new Error('Failed to load wallet data');
-                                    }
-                                    return await response.json();
-                                } catch (error) {
-                                    console.error('Error loading wallet data:', error);
-                                    // Return default empty data structure
-                                    return {
-                                        spot: {
-                                            balance: 0,
-                                            buy: 0,
-                                            sell: 0,
-                                            value: 0
-                                        },
-                                        p2p: {
-                                            balance: 0,
-                                            buy: 0,
-                                            sell: 0,
-                                            value: 0
-                                        },
-                                        margin: {
-                                            balance: 0,
-                                            debt: 0,
-                                            equity: 0,
-                                            profit: { btc: 0, percent: 0, usd: 0, usdPercent: 0 }
-                                        },
-                                        future: {
-                                            balance: 0,
-                                            wallet: 0,
-                                            pnl: 0
-                                        },
-                                        earn: {
-                                            balance: 0,
-                                            locked: 0,
-                                            flexible: 0
-                                        }
-                                    };
-                                }
-                            }
-                            
-                            // Function to update the UI with wallet data
-                            function updateWalletUI(data) {
-                                // Spot Tab
-                                document.getElementById('spot-balance').textContent = (data.spot?.balance || 0) + ' BTC';
-                                document.getElementById('spot-buy').textContent = (data.spot?.buy || 0) + ' BTC';
-                                document.getElementById('spot-sell').textContent = (data.spot?.sell || 0) + ' BTC';
-                                document.getElementById('spot-value').textContent = '$' + (data.spot?.value || 0).toLocaleString();
-                                
-                                // P2P Tab
-                                document.getElementById('p2p-balance').textContent = (data.p2p?.balance || 0) + ' BTC';
-                                document.getElementById('p2p-buy').textContent = (data.p2p?.buy || 0) + ' BTC';
-                                document.getElementById('p2p-sell').textContent = (data.p2p?.sell || 0) + ' BTC';
-                                document.getElementById('p2p-value').textContent = '$' + (data.p2p?.value || 0).toLocaleString();
-                                
-                                // Margin Tab
-                                const marginBalance = data.margin?.balance || 0;
-                                document.getElementById('margin-balance').textContent = `${marginBalance} BTC≈$${(marginBalance * 50000).toLocaleString()}`;
-                                document.getElementById('margin-debt').textContent = (data.margin?.debt || 0) + ' BTC';
-                                document.getElementById('margin-equity').textContent = (data.margin?.equity || 0) + ' BTC';
-                                const profit = data.margin?.profit || { btc: 0, percent: 0, usd: 0, usdPercent: 0 };
-                                document.getElementById('margin-profit').textContent = 
-                                    `${profit.btc} BTC(${profit.percent}%) $${profit.usd} (${profit.usdPercent}%)`;
-                                
-                                // Future Tab
-                                const futureBalance = data.future?.balance || 0;
-                                document.getElementById('future-balance').textContent = `${futureBalance} BTC≈$${(futureBalance * 50000).toLocaleString()}`;
-                                document.getElementById('future-wallet').textContent = (data.future?.wallet || 0) + ' BTC';
-                                document.getElementById('future-pnl').textContent = (data.future?.pnl || 0) + ' BTC';
-                                
-                                // Earn Tab
-                                const earnBalance = data.earn?.balance || 0;
-                                document.getElementById('earn-balance').textContent = `${earnBalance} BTC≈$${(earnBalance * 50000).toLocaleString()}`;
-                                document.getElementById('earn-locked').textContent = (data.earn?.locked || 0) + ' BTC';
-                                document.getElementById('earn-flexible').textContent = (data.earn?.flexible || 0) + ' BTC';
-                            }
-                            
-                            // Initialize the wallet when page loads
-                            document.addEventListener('DOMContentLoaded', async () => {
-                                const walletData = await loadWalletData();
-                                updateWalletUI(walletData);
-                            });
-                            </script>
-                            
                         </div>
                         <div class="col-xl-12 col-xxl-5">
                             <div class="card">
-                                <div class="card-header py-3 d-flex justify-content-between bg-transparent align-items-center">
+                                <div
+                                    class="card-header py-3 d-flex justify-content-between bg-transparent align-items-center">
                                     <h6 class="mb-0 fw-bold">Withdraw Crypto</h6>
                                 </div>
                                 <div class="card-body">
-                                    <form id="withdraw-form">
+                                    <form>
                                         <div class="row g-3 mb-3">
                                             <div class="col-sm-12">
                                                 <label class="form-label">Select coin</label>
                                                 <div class="input-group">
-                                                    <input type="number" class="form-control" id="withdraw-amount" step="0.00000001" min="0">
-                                                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" 
-                                                        data-bs-toggle="dropdown" aria-expanded="false" id="selected-coin">BTC</button>
-                                                    <ul class="dropdown-menu dropdown-menu-end" id="coin-dropdown">
-                                                        <li><a class="dropdown-item" href="#" data-coin="BTC">BTC</a></li>
-                                                        <li><a class="dropdown-item" href="#" data-coin="ETH">ETH</a></li>
-                                                        <li><a class="dropdown-item" href="#" data-coin="USDT">USDT</a></li>
+                                                    <input type="text" class="form-control">
+                                                    <button class="btn btn-outline-secondary dropdown-toggle"
+                                                        type="button" data-bs-toggle="dropdown"
+                                                        aria-expanded="false">USDT</button>
+                                                    <ul class="dropdown-menu dropdown-menu-end">
+                                                        <li><a class="dropdown-item" href="#">BNB</a></li>
+                                                        <li><a class="dropdown-item" href="#">BTC</a></li>
+                                                        <li><a class="dropdown-item" href="#">BUSD</a></li>
+                                                        <li><a class="dropdown-item" href="#">EOS</a></li>
+                                                        <li><a class="dropdown-item" href="#">ETH</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="col-sm-12">
                                                 <label class="form-label">Withdraw Address</label>
-                                                <input type="text" class="form-control" id="withdraw-address" required>
+                                                <input type="text" class="form-control">
                                             </div>
                                             <div class="col-sm-12">
                                                 <label class="form-label">Select Withdraw Network</label>
-                                                <select class="form-select" id="withdraw-network">
-                                                    <option value="BNB">BNB (Arrival time ≈ 2 mins)</option>
-                                                    <option value="BTC">BTC (Arrival time ≈ 1 mins)</option>
-                                                    <option value="BSC">BSC (Arrival time ≈ 2 mins)</option>
-                                                    <option value="ETH">ETH (Arrival time ≈ 3 mins)</option>
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected> BNB (Arrival time ≈ 2 mins)</option>
+                                                    <option value="1">BTC (Arrival time ≈ 1 mins)</option>
+                                                    <option value="2">BSC (Arrival time ≈ 2 mins)</option>
+                                                    <option value="3">ETH (Arrival time ≈ 3 mins)</option>
                                                 </select>
                                             </div>
                                             <div class="col-sm-12">
                                                 <div class="d-flex justify-content-between flex-wrap">
                                                     <div>
-                                                        <div class="truncated" id="balance-label">BTC spot balance</div>
-                                                        <div class="text-muted truncated" id="current-balance">0 BTC</div>
+                                                        <div class="truncated">BTC spot balance</div>
+                                                        <div class="text-muted truncated"> 0 BTC</div>
                                                     </div>
                                                     <div>
                                                         <div class="truncated">Minimum withdrawal</div>
-                                                        <div class="text-muted truncated" id="min-withdrawal">0.0000086 BTC</div>
+                                                        <div class="text-muted  truncated"> 0.0000086 BTC </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-sm-12">
-                                                <button type="submit" class="btn btn-primary w-100" id="withdraw-btn">Withdraw</button>
+                                                <div class="d-flex justify-content-between flex-wrap">
+                                                    <div>
+                                                        <div class="truncated">Network fee</div>
+                                                        <div class="text-muted truncated"> 0.0000043 ~ 0.00055 BTC</div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="truncated">24h remaining limit</div>
+                                                        <div class="text-muted  truncated"> 100 BTC/100 BTC </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </form>
                                 </div>
                             </div>
                         </div>
-                        
-                        
                     </div><!-- Row End -->
 
                     <div class="row g-3 mb-3 row-deck">
@@ -1328,7 +1134,6 @@
     <!-- Jquery Page Js -->
     <script src="./assets/js/template.js"></script>
     <script src="./assets/js/page/wallet.js"></script>
-    <script src="./wallet-data.js"></script>
 </body>
 
 
