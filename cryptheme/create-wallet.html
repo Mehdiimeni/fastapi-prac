@@ -23,9 +23,7 @@
             <div class="d-flex flex-column h-100">
                 <!-- Logo -->
                 <a href="user.html" class="mb-0 brand-icon">
-                    <span class="logo-icon">
-                        <i class="fa fa-gg-circle fs-3"></i>
-                    </span>
+
                     <span class="logo-text">Crypto Ex</span>
                 </a>
                 <!-- Menu: main ul -->
@@ -484,7 +482,8 @@
                                     <div class="row g-3 align-items-center">
                                         <div class="col-md-6 col-lg-6 col-xl-3">
                                             <div class="d-flex">
-                                                <img class="avatar rounded-circle" src="assets/images/profile_av.svg" alt="profile">
+                                                <img class="avatar rounded-circle" src="assets/images/profile_av.svg"
+                                                    alt="profile">
                                                 <div class="flex-fill ms-3">
                                                     <p class="mb-0"><span class="font-weight-bold">User </span></p>
                                                     <small class="">User@gmail.com</small>
@@ -494,7 +493,8 @@
                                         <div class="col-md-6 col-lg-6 col-xl-3">
                                             <div class="d-flex flex-column">
                                                 <span class="text-muted mb-1">User ID:164647708</span>
-                                                <span class="small text-muted flex-fill text-truncate">Last login time 2025-05-05 10:56:22</span>
+                                                <span class="small text-muted flex-fill text-truncate">Last login time
+                                                    2025-05-05 10:56:22</span>
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-lg-6 col-xl-2">
@@ -510,7 +510,7 @@
                             </div>
                         </div>
                     </div><!-- Row End -->
-                    
+
                     <div class="row">
                         <!-- Right Column - Create New Wallet -->
                         <div class="col-xl-8 col-lg-7 col-md-12">
@@ -519,42 +519,49 @@
                                 <div id="email-verification-card" class="card p-4 shadow">
                                     <div class="card-body">
                                         <h5 class="card-title text-center mb-4">Create New Wallet</h5>
-            
+
                                         <div id="email-step">
                                             <div class="mb-3">
                                                 <label for="email" class="form-label">Your Email</label>
-                                                <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+                                                <input type="email" class="form-control" id="email"
+                                                    placeholder="example@gmail.com">
                                             </div>
-                                            <button id="send-code-btn" class="btn btn-primary w-100">Send Verification Code</button>
+                                            <button id="send-code-btn" class="btn btn-primary w-100">Send Verification
+                                                Code</button>
                                         </div>
-            
+
                                         <div id="verify-step" class="d-none">
                                             <div class="alert alert-info">
                                                 Verification code sent to <span id="display-email"></span>
                                             </div>
                                             <div class="mb-3">
-                                                <label for="verification-code" class="form-label">Verification Code</label>
-                                                <input type="text" class="form-control" id="verification-code" placeholder="123456">
+                                                <label for="verification-code" class="form-label">Verification
+                                                    Code</label>
+                                                <input type="text" class="form-control" id="verification-code"
+                                                    placeholder="123456">
                                             </div>
-                                            <button id="verify-btn" class="btn btn-success w-100">Verify & Create Wallet</button>
+                                            <button id="verify-btn" class="btn btn-success w-100">Verify & Create
+                                                Wallet</button>
                                         </div>
                                     </div>
                                 </div>
-            
+
                                 <!-- Step 2: Security Information (Hidden Initially) -->
-                                <div id="security-info-card" class="card p-4 shadow d-none" >
+                                <div id="security-info-card" class="card p-4 shadow d-none">
                                     <div class="card-body">
                                         <h5 class="card-title text-center mb-4">Step 3: Wallet Security</h5>
-            
+
                                         <div class="alert alert-danger mb-4">
                                             <h6 class="alert-heading">Recovery Phrase (Confidential!)</h6>
-                                            <div id="recovery-phrase" class="p-3 bg-light rounded text-center fw-bold my-3" style="font-size: 1.1rem;"></div>
+                                            <div id="recovery-phrase"
+                                                class="p-3 bg-light rounded text-center fw-bold my-3"
+                                                style="font-size: 1.1rem;"></div>
                                             <p class="mb-0 text-danger">
                                                 <i class="fas fa-exclamation-triangle"></i>
                                                 Write this down securely. This is your only way to recover the wallet!
                                             </p>
                                         </div>
-            
+
                                         <div class="mb-4">
                                             <label class="form-label">Your Public Wallet Address:</label>
                                             <div id="wallet-address" class="p-3 bg-light rounded text-break"></div>
@@ -562,20 +569,21 @@
                                                 <i class="far fa-copy"></i> Copy Address
                                             </button>
                                         </div>
-            
+
                                         <div class="text-center mb-4">
                                             <div id="qr-code" class="d-inline-block p-2 border rounded"></div>
                                             <p class="text-muted mt-2">Scan to receive crypto</p>
                                         </div>
-            
+
                                         <div class="form-check mb-3">
                                             <input class="form-check-input" type="checkbox" id="confirm-save">
                                             <label class="form-check-label" for="confirm-save">
                                                 I confirm I've saved the recovery phrase
                                             </label>
                                         </div>
-            
-                                        <button id="continue-btn" class="btn btn-primary w-100" disabled>Continue to Wallet</button>
+
+                                        <button id="continue-btn" class="btn btn-primary w-100" disabled>Continue to
+                                            Wallet</button>
                                     </div>
                                 </div>
                             </div>
@@ -583,25 +591,32 @@
                         <!-- Left Column - Profile and Notification -->
                         <div class="col-xl-4 col-lg-5 col-md-12">
                             <div class="card profile-card flex-column mb-3">
-                                <div class="card-header py-3 d-flex justify-content-between bg-transparent border-bottom-0">
+                                <div
+                                    class="card-header py-3 d-flex justify-content-between bg-transparent border-bottom-0">
                                     <h6 class="mb-0 fw-bold">Profile</h6>
                                 </div>
                                 <div class="card-body d-flex profile-fulldeatil flex-column">
                                     <div class="profile-user text-center w220 mx-auto">
                                         <a href="#">
-                                            <img src="assets/images/profile_av.svg" alt="" class="avatar xl rounded img-thumbnail shadow-sm">
+                                            <img src="assets/images/profile_av.svg" alt=""
+                                                class="avatar xl rounded img-thumbnail shadow-sm">
                                         </a>
-                                        <button class="btn btn-primary" style="position: absolute;top:15px;right: 15px;" data-bs-toggle="modal" data-bs-target="#editprofile">
+                                        <button class="btn btn-primary" style="position: absolute;top:15px;right: 15px;"
+                                            data-bs-toggle="modal" data-bs-target="#editprofile">
                                             <i class="icofont-edit"></i>
                                         </button>
-                                        <div class="about-info d-flex align-items-center mt-3 justify-content-center flex-column">
+                                        <div
+                                            class="about-info d-flex align-items-center mt-3 justify-content-center flex-column">
                                             <span class="text-muted small">User ID : PXL-0001</span>
                                         </div>
                                     </div>
                                     <div class="profile-info w-100">
                                         <h6 class="mb-0 mt-2 fw-bold d-block fs-6 text-center">User</h6>
-                                        <span class="py-1 fw-bold small-11 mb-0 mt-1 text-muted text-center mx-auto d-block">UK</span>
-                                        <p class="mt-2">Experience the next level of secure key exchange with our professional portal — blazing speed, unmatched security, effortless usability, and total peace of mind.</p>
+                                        <span
+                                            class="py-1 fw-bold small-11 mb-0 mt-1 text-muted text-center mx-auto d-block">UK</span>
+                                        <p class="mt-2">Experience the next level of secure key exchange with our
+                                            professional portal — blazing speed, unmatched security, effortless
+                                            usability, and total peace of mind.</p>
                                         <div class="row g-2 pt-2">
                                             <div class="col-xl-12">
                                                 <div class="d-flex align-items-center">
@@ -631,30 +646,35 @@
                                     </div>
                                 </div>
                             </div>
-            
+
                             <div class="card">
                                 <div class="card-body">
                                     <h5>Notification preferences</h5>
-                                    <span class="text-muted">Control all our newsletter and email related notifications to your email</span>
+                                    <span class="text-muted">Control all our newsletter and email related notifications
+                                        to your email</span>
                                     <div class="mt-4">
                                         <div class="form-check form-switch mt-2">
                                             <input class="form-check-input" type="checkbox" id="np-Newsletter">
-                                            <label class="form-check-label" for="np-Newsletter">Activity Notifications</label>
+                                            <label class="form-check-label" for="np-Newsletter">Activity
+                                                Notifications</label>
                                         </div>
                                         <div class="form-check form-switch mt-2">
                                             <input class="form-check-input" type="checkbox" id="np-Notifications">
-                                            <label class="form-check-label" for="np-Notifications">Comment Notifications</label>
+                                            <label class="form-check-label" for="np-Notifications">Comment
+                                                Notifications</label>
                                         </div>
                                         <div class="form-check form-switch mt-2">
-                                            <input class="form-check-input" type="checkbox" id="np-Preferences" checked="">
-                                            <label class="form-check-label" for="np-Preferences">Email Preferences</label>
+                                            <input class="form-check-input" type="checkbox" id="np-Preferences"
+                                                checked="">
+                                            <label class="form-check-label" for="np-Preferences">Email
+                                                Preferences</label>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
-                        
+
+
                     </div>
                 </div>
             </div>
